@@ -15,11 +15,22 @@
 void	ft_print_reverse_alphabet(void)
 {
 	char	letras;
-
+	// aqui a idéia é imprimir o alfabeto ao contrário
+	// iniciamos pela ultima letra
 	letras = 'z';
+	// aqui comparamos enquanto letra for menor ou igual a "a"
 	while (letras >= 'a')
 	{
 		write (1, &letras, 1);
+		// para percorrer as letras realizamos o decremento de letra
 		letras = letras - 1;
 	}
 }
+
+// void	ft_print_reverse_alphabet(void);
+
+// int main()
+// {
+// 	ft_print_reverse_alphabet();
+// 	return (0);
+// }

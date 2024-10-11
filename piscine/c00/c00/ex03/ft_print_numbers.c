@@ -16,6 +16,7 @@ void	ft_print_numbers(void);
 
 void	ft_print_numbers(void)
 {
+	// seguimos a mesma idéia, mas aqui para percorrer os digitos
 	char	numeros;
 
 	numeros = '0';
@@ -25,3 +26,11 @@ void	ft_print_numbers(void)
 		numeros = numeros + 1;
 	}
 }
+
+// void	ft_print_numbers(void);
+
+// int main()
+// {
+// 	ft_print_numbers();
+// 	return (0);
+// }
