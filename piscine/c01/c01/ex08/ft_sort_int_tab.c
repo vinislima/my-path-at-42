@@ -62,37 +62,37 @@ void	ft_sort_int_tab(int *tab, int size)
 	}
 }
 
-// início da main
-#include <stdio.h>
-#include <unistd.h>
+// // início da main
+// #include <stdio.h>
+// #include <unistd.h>
 
-void	ft_sort_int_tab(int *tab, int size);
+// void	ft_sort_int_tab(int *tab, int size);
 
-int	main(void)
-{
-	// declaramos duas variáveis, uma para a quantidade de elementos
-	// outra para o index do array
-	int size = 6;
-	int index = 0;
-		// aqui declaramos e atribuímos elementos para o array
-	int array[] = {212, 13, 40, 5, 19, 0};
-	// o laço de repetição percorrerá enquanto o index
-	// for menor que a quantidade de elementos dele
-	// realizamos a primeira impressão para verificar a ordem
-	while(index < size)
-	{
-		printf("%i,",array[index]);
-		index++;
-	}
-	printf("\n");
-	// chamamos a função e passamos o array e o a quantidade elementos
-	ft_sort_int_tab(array, size);
-	// fazemos novamente um laço para passar pelo array e confirmar
-	// que a inversão ocorreu
-	index = 0;
-	while(index < size)
-	{
-		printf("%i,",array[index]);
-		index++;
-	}
-}
+// int	main(void)
+// {
+// 	// declaramos duas variáveis, uma para a quantidade de elementos
+// 	// outra para o index do array
+// 	int size = 6;
+// 	int index = 0;
+// 		// aqui declaramos e atribuímos elementos para o array
+// 	int array[] = {212, 13, 40, 5, 19, 0};
+// 	// o laço de repetição percorrerá enquanto o index
+// 	// for menor que a quantidade de elementos dele
+// 	// realizamos a primeira impressão para verificar a ordem
+// 	while(index < size)
+// 	{
+// 		printf("%i,",array[index]);
+// 		index++;
+// 	}
+// 	printf("\n");
+// 	// chamamos a função e passamos o array e o a quantidade elementos
+// 	ft_sort_int_tab(array, size);
+// 	// fazemos novamente um laço para passar pelo array e confirmar
+// 	// que a inversão ocorreu
+// 	index = 0;
+// 	while(index < size)
+// 	{
+// 		printf("%i,",array[index]);
+// 		index++;
+// 	}
+// }

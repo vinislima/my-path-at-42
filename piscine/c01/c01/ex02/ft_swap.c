@@ -30,25 +30,25 @@ void	ft_swap(int *a, int *b)
 	*b = change;
 }
 
-// iniciamos o main aqui
-#include <unistd.h>
-#include <stdio.h>
+// // iniciamos o main aqui
+// #include <unistd.h>
+// #include <stdio.h>
 
-void	ft_swap(int *a, int *b);
+// void	ft_swap(int *a, int *b);
 
-int	main()
-{
-	// declaramos e atribuimos valores
-	// as variaveis 
-	int a = 10;
-	int b = 40;
-	// testamos para verificar os valores
-	// armazenados nas variáveis
-	printf("a = %i, b = %i\n", a, b);
-	// chamamos a função que ira realizar a troca
-	// para isso passamos os endereços de mémoria
-	ft_swap(&a, &b);
-	// imprimindo novamente vemos que a troca ocorreu
-	printf("a = %i, b = %i", a, b);
-	return(0);
-}
+// int	main()
+// {
+// 	// declaramos e atribuimos valores
+// 	// as variaveis 
+// 	int a = 10;
+// 	int b = 40;
+// 	// testamos para verificar os valores
+// 	// armazenados nas variáveis
+// 	printf("a = %i, b = %i\n", a, b);
+// 	// chamamos a função que ira realizar a troca
+// 	// para isso passamos os endereços de mémoria
+// 	ft_swap(&a, &b);
+// 	// imprimindo novamente vemos que a troca ocorreu
+// 	printf("a = %i, b = %i", a, b);
+// 	return(0);
+// }

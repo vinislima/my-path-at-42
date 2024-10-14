@@ -70,3 +70,20 @@ void	ft_putnbr(int nb)
 		}
 	}
 }
+
+// início da main
+#include <unistd.h>
+
+void	ft_putnbr(int nb);
+
+int main()
+{
+	// chamamos a função várias vezes para testa-la de diferentes formas
+	ft_putnbr(-2147483648);
+	// utilização do write para imprimir quebra de linha
+	write(1, "\n", 2);
+	ft_putnbr(2147483647);
+	write(1, "\n", 2);
+	ft_putnbr(48);
+	write(1, "\n", 2);
+}

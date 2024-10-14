@@ -22,25 +22,25 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 
-// inicio da main
-#include <stdio.h>
+// // inicio da main
+// #include <stdio.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod);
+// void	ft_div_mod(int a, int b, int *div, int *mod);
 
-int	main()
-{
-	// declaramos quatro variáveis
-	// onde vamos atribuir valores a duas
-	// e as outras duas iremos utilizar seus endereços
-	// para receber os resultados das operações realizadas na função
-	int a, b, div, mod;
-	// atribuimos valore à a e b
-	a = 20;
-	b = 5;
-	// passamos as variáveis e endereços para a função
-	ft_div_mod(a, b, &div, &mod);
-	// aqui imprimimos os valores armazenados nas variáveis
-	// que antes não tinham valores atribuidos
-	printf("div: %d, mod: %d", div, mod);
-	return(0);
-}
+// int	main()
+// {
+// 	// declaramos quatro variáveis
+// 	// onde vamos atribuir valores a duas
+// 	// e as outras duas iremos utilizar seus endereços
+// 	// para receber os resultados das operações realizadas na função
+// 	int a, b, div, mod;
+// 	// atribuimos valore à a e b
+// 	a = 20;
+// 	b = 5;
+// 	// passamos as variáveis e endereços para a função
+// 	ft_div_mod(a, b, &div, &mod);
+// 	// aqui imprimimos os valores armazenados nas variáveis
+// 	// que antes não tinham valores atribuidos
+// 	printf("div: %d, mod: %d", div, mod);
+// 	return(0);
+// }

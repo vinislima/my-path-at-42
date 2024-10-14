@@ -36,12 +36,12 @@ void	ft_putstr(char *str)
 	}
 }
 
-// início da main
-void	ft_putstr(char *str);
+// // início da main
+// void	ft_putstr(char *str);
 
-int main(void)
-{
-	// chamamos a função e passamos a string
-	ft_putstr("teste");
-	return(0);
-}
+// int main(void)
+// {
+// 	// chamamos a função e passamos a string
+// 	ft_putstr("teste");
+// 	return(0);
+// }

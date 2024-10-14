@@ -55,36 +55,36 @@ void	ft_rev_int_tab(int *tab, int size)
 	// já estarão trocadas e ambas estarão no meio do array
 }
 
-// início da main
-#include <stdio.h>
-#include <unistd.h>
+// // início da main
+// #include <stdio.h>
+// #include <unistd.h>
 
-void	ft_rev_int_tab(int *tab, int size);
+// void	ft_rev_int_tab(int *tab, int size);
 
-int	main(void)
-{	
-	// declaramos duas variáveis, uma para a quantidade de elementos
-	// outra para o index do array
-	int size = 5;
-	int index = 0;
-	// aqui declaramos e atribuímos elementos para o array
-	int array[] = {1, 2, 3, 4, 5};
-	// o laço de repetição percorrerá enquanto o index
-	// for menor que a quantidade de elementos dele
-	// realizamos a primeira impressão para verificar a ordem
-	while(index < size)
-	{
-		printf("%i,",array[index]);
-		index++;
-	}
-	// chamamos a função e passamos o array e o a quantidade elementos
-	ft_rev_int_tab(array, size);
-	// fazemos novamente um laço para passar pelo array e confirmar
-	// que a inversão ocorreu
-	index = 0;
-	while(index < size)
-	{
-		printf("%i,",array[index]);
-		index++;
-	}
-}
+// int	main(void)
+// {	
+// 	// declaramos duas variáveis, uma para a quantidade de elementos
+// 	// outra para o index do array
+// 	int size = 5;
+// 	int index = 0;
+// 	// aqui declaramos e atribuímos elementos para o array
+// 	int array[] = {1, 2, 3, 4, 5};
+// 	// o laço de repetição percorrerá enquanto o index
+// 	// for menor que a quantidade de elementos dele
+// 	// realizamos a primeira impressão para verificar a ordem
+// 	while(index < size)
+// 	{
+// 		printf("%i,",array[index]);
+// 		index++;
+// 	}
+// 	// chamamos a função e passamos o array e o a quantidade elementos
+// 	ft_rev_int_tab(array, size);
+// 	// fazemos novamente um laço para passar pelo array e confirmar
+// 	// que a inversão ocorreu
+// 	index = 0;
+// 	while(index < size)
+// 	{
+// 		printf("%i,",array[index]);
+// 		index++;
+// 	}
+// }

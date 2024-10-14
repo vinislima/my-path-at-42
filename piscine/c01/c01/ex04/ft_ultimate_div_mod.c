@@ -31,23 +31,23 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*b = mod;
 }
 
-// início da main
-#include <unistd.h>
-#include <stdio.h>
+// // início da main
+// #include <unistd.h>
+// #include <stdio.h>
 
-void	ft_ultimate_div_mod(int *a, int *b);
+// void	ft_ultimate_div_mod(int *a, int *b);
 
-int	main()
-{
-	// declaramos e atribuímos valores as variáveis
-	int a = 40;
-	int b = 10;
-	// imprimimos para verificar os valores armazenados
-	printf("a = %i, b = %i\n", a, b);
-	// chamamos a função e passamos os endereços de memórias das variáveis
-	ft_ultimate_div_mod(&a, &b);
-	// imprimimos novamente os valores das variáveis, que agora contém
-	// os valores dos cálculos realizados na função
-	printf("a = %i, b = %i", a, b);
-	return(0);
-}
+// int	main()
+// {
+// 	// declaramos e atribuímos valores as variáveis
+// 	int a = 40;
+// 	int b = 10;
+// 	// imprimimos para verificar os valores armazenados
+// 	printf("a = %i, b = %i\n", a, b);
+// 	// chamamos a função e passamos os endereços de memórias das variáveis
+// 	ft_ultimate_div_mod(&a, &b);
+// 	// imprimimos novamente os valores das variáveis, que agora contém
+// 	// os valores dos cálculos realizados na função
+// 	printf("a = %i, b = %i", a, b);
+// 	return(0);
+// }

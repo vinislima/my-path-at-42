@@ -22,35 +22,35 @@ void	ft_ultimate_ft(int *********nbr)
 	*********nbr = 42;
 }
 
-// inicio da main
-#include <stdio.h>
-#include <unistd.h>
+// // inicio da main
+// #include <stdio.h>
+// #include <unistd.h>
 
-void ft_ultimate_ft(int *********nbr);
+// void ft_ultimate_ft(int *********nbr);
 
-int main()
-{
-	// como precisamos de um ponteiro de nove níveis
-	// criamos um variável sem atribuir valor
-	// e vamos criando ponteiro e passamos o endeço
-	// de mémoria dessa variável para um ponteiro
-	// e vamos nessa sequência até alcançar nove níveis
-	int number;
-	int *ptr1 = &number;
-	int **ptr2 = &ptr1;
-	int ***ptr3 = &ptr2;
-	int ****ptr4 = &ptr3;
-	int *****ptr5 = &ptr4;
-	int ******ptr6 = &ptr5;
-	int *******ptr7 = &ptr6;
-	int ********ptr8 = &ptr7;
-	int *********ptr9 = &ptr8;
-	// testamos a impressão da variável antes de
-	// chamar a função
-	printf("%i\n",number);
-	// chamamos a função e passamos o ultimo ponteiro
-	ft_ultimate_ft(ptr9);
-	// imprimimos a variável inicial novamente que
-	// desta vez ira imprimir o conteúdo do ponteiro da função
-	printf("%i",number);
-}
+// int main()
+// {
+// 	// como precisamos de um ponteiro de nove níveis
+// 	// criamos um variável sem atribuir valor
+// 	// e vamos criando ponteiro e passamos o endeço
+// 	// de mémoria dessa variável para um ponteiro
+// 	// e vamos nessa sequência até alcançar nove níveis
+// 	int number;
+// 	int *ptr1 = &number;
+// 	int **ptr2 = &ptr1;
+// 	int ***ptr3 = &ptr2;
+// 	int ****ptr4 = &ptr3;
+// 	int *****ptr5 = &ptr4;
+// 	int ******ptr6 = &ptr5;
+// 	int *******ptr7 = &ptr6;
+// 	int ********ptr8 = &ptr7;
+// 	int *********ptr9 = &ptr8;
+// 	// testamos a impressão da variável antes de
+// 	// chamar a função
+// 	printf("%i\n",number);
+// 	// chamamos a função e passamos o ultimo ponteiro
+// 	ft_ultimate_ft(ptr9);
+// 	// imprimimos a variável inicial novamente que
+// 	// desta vez ira imprimir o conteúdo do ponteiro da função
+// 	printf("%i",number);
+// }

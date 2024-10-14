@@ -35,21 +35,21 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-// início da main
-#include <stdio.h>
+// // início da main
+// #include <stdio.h>
 
-int	ft_strlen(char *str);
+// int	ft_strlen(char *str);
 
-int main(void)
-{
-	// como o retorno da função é um inteiro
-	// declaramos uma variável desse tipo
-	// para receber o valor
-	int i;
-	// na atribuição colocamos a função
-	// que retornará o valor
-	i = ft_strlen("teste");
-	// iremos imprimir o valor recebido
-	printf("%d",i);
-	return(0);
-}
+// int main(void)
+// {
+// 	// como o retorno da função é um inteiro
+// 	// declaramos uma variável desse tipo
+// 	// para receber o valor
+// 	int i;
+// 	// na atribuição colocamos a função
+// 	// que retornará o valor
+// 	i = ft_strlen("teste");
+// 	// iremos imprimir o valor recebido
+// 	printf("%d",i);
+// 	return(0);
+// }
