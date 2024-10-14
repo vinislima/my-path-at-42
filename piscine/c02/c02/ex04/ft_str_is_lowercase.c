@@ -52,3 +52,20 @@ int	ft_str_is_lowercase(char *str)
 	// minúsculos, retorna um
 	return (1);
 }
+
+// início da main
+#include <stdio.h>
+
+int	ft_str_is_lowercase(char *str);
+
+int	main(void)
+{
+	// passando direto a função como paramêtro da printf
+	// para ver o retorno, no primeiro devemos ter retorno de
+	// um pois só há letras minúsculas
+	printf("%i\n", ft_str_is_lowercase("aassed"));
+	// aqui teremos retorno zero, pois há uma maiúscula
+	printf("%i\n", ft_str_is_lowercase("aaAsed"));
+	// aqui também o retorno deve ser zero, pois há um numeral
+	printf("%i\n", ft_str_is_lowercase("aa1sed"));
+}
