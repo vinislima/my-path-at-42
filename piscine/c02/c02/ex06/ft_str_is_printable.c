@@ -57,16 +57,16 @@ int	ft_str_is_printable(char *str)
 	return (1);
 }
 
-// início da main
-#include <stdio.h>
+// // início da main
+// #include <stdio.h>
 
-int	ft_str_is_printable(char *str);
+// int	ft_str_is_printable(char *str);
 
-int	main(void)
-{
-	// aqui o retorno deve ser um, pois são todos possíveis de impressão
-	printf("%i\n", ft_str_is_printable("dasdasdasda"));
-	// aqui o retorno deve ser zero, pois vinte e sete representa escape
-	printf("%i\n", ft_str_is_printable(27));
-	return (0);
-}
+// int	main(void)
+// {
+// 	// aqui o retorno deve ser um, pois são todos possíveis de impressão
+// 	printf("%i\n", ft_str_is_printable("dasdasdasda"));
+// 	// aqui o retorno deve ser zero, pois vinte e sete representa escape
+// 	printf("%i\n", ft_str_is_printable(27));
+// 	return (0);
+// }

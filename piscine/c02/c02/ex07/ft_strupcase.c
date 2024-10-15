@@ -54,25 +54,25 @@ char	*ft_strupcase(char *str)
 	return (str);
 }
 
-//início da main
-#include <unistd.h>
+// //início da main
+// #include <unistd.h>
 
-char	*ft_strupcase(char *str);
+// char	*ft_strupcase(char *str);
 
-int	main(void)
-{
-	// declaro um aray e atribuo um string para ele
-	char	a[] = "Isso é apenas 1 teste";
-	// declaro um ponteiro e atribuo o retorna da função
-	// pois será um ponteiro
-	char	*str = ft_strupcase(a);
-	// somente para estudos optei por utilizar o while, juntamente com
-	// write
-	int	count = 0;
-	while (str[count] != '\0')
-	{
-		// junto com o contador o write imprime cada elemento do array
-		write(1, &str[count])
-	}
-	return (0);
-}
+// int	main(void)
+// {
+// 	// declaro um aray e atribuo um string para ele
+// 	char	a[] = "Isso é apenas 1 teste";
+// 	// declaro um ponteiro e atribuo o retorna da função
+// 	// pois será um ponteiro
+// 	char	*str = ft_strupcase(a);
+// 	// somente para estudos optei por utilizar o while, juntamente com
+// 	// write
+// 	int	count = 0;
+// 	while (str[count] != '\0')
+// 	{
+// 		// junto com o contador o write imprime cada elemento do array
+// 		write(1, &str[count], 1);
+// 	}
+// 	return (0);
+// }

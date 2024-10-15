@@ -52,19 +52,19 @@ int	ft_str_is_uppercase(char *str)
 	return (1);
 }
 
-// início da main
-#include <stdio.h>
+// // início da main
+// #include <stdio.h>
 
-int	ft_str_is_uppercase(char *str);
+// int	ft_str_is_uppercase(char *str);
 
-int	main(void)
-{
-	// função colocada direto na função printf, pois temos um retorno
-	// no primeito devemos ter um, pois na string só há letras maiúscula
-	printf("%i\n", ft_str_is_uppercase("TAADASD"));
-	// neste devemos ter zero, pois há uma letra minúscula
-	printf("%i\n", ft_str_is_uppercase("TAAaASD"));
-	// neste devemos ter zero, pois há um numeral
-	printf("%i\n", ft_str_is_uppercase("TAA1ASD"));
-	return (0);
-}
+// int	main(void)
+// {
+// 	// função colocada direto na função printf, pois temos um retorno
+// 	// no primeito devemos ter um, pois na string só há letras maiúscula
+// 	printf("%i\n", ft_str_is_uppercase("TAADASD"));
+// 	// neste devemos ter zero, pois há uma letra minúscula
+// 	printf("%i\n", ft_str_is_uppercase("TAAaASD"));
+// 	// neste devemos ter zero, pois há um numeral
+// 	printf("%i\n", ft_str_is_uppercase("TAA1ASD"));
+// 	return (0);
+// }

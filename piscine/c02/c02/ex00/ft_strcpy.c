@@ -40,21 +40,21 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-// início da main
-#include <stdio.h>
+// // início da main
+// #include <stdio.h>
 
-int	ft_strcmp(char *s1, char *s2);
+// int	ft_strcmp(char *s1, char *s2);
 
-int	main(void)
-{
-	// declaramos e atribumos valores à duas strings
-	char *src_1 = "Teste";
-	char *src_2 = "Teste";
-	// chamamos a função e passamos as variáveis
-	// utilizamos a função printf para imprimir a saída
-	printf("Minha: %d\n",ft_strcmp(src_1, src_2));
-	//printf("Original: %s\n",strcmp(src_1, src_2));
-	return(0);
-	// a partir desse ponto é interessante comparar os
-	// compartamentos das funções criadas, com as originais
-}
+// int	main(void)
+// {
+// 	// declaramos e atribumos valores à duas strings
+// 	char *src_1 = "Teste";
+// 	char *src_2 = "Teste";
+// 	// chamamos a função e passamos as variáveis
+// 	// utilizamos a função printf para imprimir a saída
+// 	printf("Minha: %d\n",ft_strcmp(src_1, src_2));
+// 	//printf("Original: %s\n",strcmp(src_1, src_2));
+// 	return(0);
+// 	// a partir desse ponto é interessante comparar os
+// 	// compartamentos das funções criadas, com as originais
+// }

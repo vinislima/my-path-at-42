@@ -41,22 +41,22 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 
-// início da string
-#include <stdio.h>
+// // início da string
+// #include <stdio.h>
 
-char	*ft_strncpy(char *dest, char *src, unsigned int n);
+// char	*ft_strncpy(char *dest, char *src, unsigned int n);
 
-int	main(void)
-{
-	// declaramos uma string, que será a origem
-	char *src = "Teste";
-	// declaramos uma string que será usada como destino
-	// e colocamos um tamanho nela
-	char dest[5];
-	// aqui declaramos e atribuimos um valor de limite
-	unsigned int n = 3;
-	// chamamos a funação diretamente dentro do printf para
-	// impressão da saída dela
-	printf("%s",ft_strncpy(dest, src, n));
-	return(0);
-}
+// int	main(void)
+// {
+// 	// declaramos uma string, que será a origem
+// 	char *src = "Teste";
+// 	// declaramos uma string que será usada como destino
+// 	// e colocamos um tamanho nela
+// 	char dest[5];
+// 	// aqui declaramos e atribuimos um valor de limite
+// 	unsigned int n = 3;
+// 	// chamamos a funação diretamente dentro do printf para
+// 	// impressão da saída dela
+// 	printf("%s",ft_strncpy(dest, src, n));
+// 	return(0);
+// }

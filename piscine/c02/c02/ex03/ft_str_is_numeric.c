@@ -50,17 +50,17 @@ int	ft_str_is_numeric(char *str)
 	return (1);
 }
 
-// inícios da main
-#include <stdio.h>
+// // inícios da main
+// #include <stdio.h>
 
-int	ft_str_is_numeric(char *str);
+// int	ft_str_is_numeric(char *str);
 
-int	main(void)
-{
-	// em caso de todos elementos estarem dentro do intervalo
-	// dos caracteres númericos temos a saída igual a um
-	printf("%i\n", ft_str_is_numeric("123456789"));
-	// neste caso como temos uma letra, a saída será zero
-	printf("%i\n", ft_str_is_numeric("1234A6789"));
-	return (0);
-}
+// int	main(void)
+// {
+// 	// em caso de todos elementos estarem dentro do intervalo
+// 	// dos caracteres númericos temos a saída igual a um
+// 	printf("%i\n", ft_str_is_numeric("123456789"));
+// 	// neste caso como temos uma letra, a saída será zero
+// 	printf("%i\n", ft_str_is_numeric("1234A6789"));
+// 	return (0);
+// }

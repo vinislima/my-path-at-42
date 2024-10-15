@@ -52,24 +52,24 @@ char	*ft_strlowcase(char *str)
 	return (str);
 }
 
-// início da main
-#include <unistd.h>
+// // início da main
+// #include <unistd.h>
 
-char	*ft_strlowcase(char *str);
+// char	*ft_strlowcase(char *str);
 
-int	main(void)
-{
-	// declaro um arraya e atribuo uma string
-	char	a[] = "IsSo é 1 TeSTe";
-	// declaro um ponteiro e atribuo a função que têm o retorno
-	// apontando o início da string
-	char	*str = ft_strlowcase(a);
-	// usando para estudo o while e write
-	int	count = 0;
-	while (str[count] != '\0')
-	{
-		write(1, &str[count], 1);
-		count++;
-	}
-	return (0);
-}
+// int	main(void)
+// {
+// 	// declaro um arraya e atribuo uma string
+// 	char	a[] = "IsSo é 1 TeSTe";
+// 	// declaro um ponteiro e atribuo a função que têm o retorno
+// 	// apontando o início da string
+// 	char	*str = ft_strlowcase(a);
+// 	// usando para estudo o while e write
+// 	int	count = 0;
+// 	while (str[count] != '\0')
+// 	{
+// 		write(1, &str[count], 1);
+// 		count++;
+// 	}
+// 	return (0);
+// }

@@ -64,17 +64,17 @@ int	ft_str_is_alpha(char *str)
 	return (1);
 }
 
-// início da main
-#include <stdio.h>
+// // início da main
+// #include <stdio.h>
 
-int	ft_str_is_alpha(char *str);
+// int	ft_str_is_alpha(char *str);
 
-int	main(void)
-{
-	// chamando a função diretamente dentro do printf, porque o temos retorno de inteiro
-	// aqui podemos fazer o teste passando uma string com letras
-	// e números e outra apenas com letras, a primeira deve retornar zero e a segunda um
-	printf("%i\n", ft_str_is_alpha("t134"));
-	printf("%i\n", ft_str_is_alpha("teste"));
-	return (0);
-}
+// int	main(void)
+// {
+// 	// chamando a função diretamente dentro do printf, porque o temos retorno de inteiro
+// 	// aqui podemos fazer o teste passando uma string com letras
+// 	// e números e outra apenas com letras, a primeira deve retornar zero e a segunda um
+// 	printf("%i\n", ft_str_is_alpha("t134"));
+// 	printf("%i\n", ft_str_is_alpha("teste"));
+// 	return (0);
+// }
