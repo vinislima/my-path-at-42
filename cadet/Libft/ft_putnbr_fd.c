@@ -1,27 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 14:56:20 by vinda-si          #+#    #+#             */
-/*   Updated: 2024/10/30 12:01:54 by vinda-si         ###   ########.fr       */
+/*   Created: 2024/10/30 08:23:55 by vinda-si          #+#    #+#             */
+/*   Updated: 2024/10/30 11:12:28 by vinda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include <unistd.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *c);
+void	ft_putnbr_fd(int n, int fd);
 
-size_t	ft_strlen(const char *c)
+void	ft_putnbr_fd(int n, int fd)
 {
-	size_t	count;
-
-	count = 0;
-	while (c[count] != '\0')
+	if (n == -2147483648)
 	{
-		count++;
+		write(fd, "-2147483648", 11);
+		return ;
 	}
-	return (count);
+	if (n < 0)
+	{
+		ft_putchar_fd('-', fd);
+		n = -n;
+	}
+	if (n > 9)
+	{
+		ft_putnbr_fd(n / 10, fd);
+	}
+	ft_putchar_fd((n % 10) + '0', fd);
 }

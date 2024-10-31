@@ -1,27 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 14:56:20 by vinda-si          #+#    #+#             */
-/*   Updated: 2024/10/30 12:01:54 by vinda-si         ###   ########.fr       */
+/*   Created: 2024/10/23 10:18:26 by vinda-si          #+#    #+#             */
+/*   Updated: 2024/10/28 11:59:54 by vinda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *c);
+void	*ft_calloc(size_t nmemb, size_t size);
 
-size_t	ft_strlen(const char *c)
+void	*ft_calloc(size_t nmemb, size_t size)
 {
-	size_t	count;
+	void	*ptr;
+	size_t	calc_size;
 
-	count = 0;
-	while (c[count] != '\0')
-	{
-		count++;
-	}
-	return (count);
+	if (nmemb == 0 || size == 0)
+		return (malloc(0));
+	if (nmemb > (size_t)-1 / size)
+		return (NULL);
+	calc_size = nmemb * size;
+	ptr = malloc(calc_size);
+	if (!ptr)
+		return (NULL);
+	ft_memset(ptr, 0, calc_size);
+	return (ptr);
 }

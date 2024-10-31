@@ -1,27 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 14:56:20 by vinda-si          #+#    #+#             */
-/*   Updated: 2024/10/30 12:01:54 by vinda-si         ###   ########.fr       */
+/*   Created: 2024/10/30 08:21:06 by vinda-si          #+#    #+#             */
+/*   Updated: 2024/10/30 08:44:13 by vinda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-size_t	ft_strlen(const char *c);
+void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 
-size_t	ft_strlen(const char *c)
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	size_t	count;
+	unsigned int	count;
 
+	if (s == NULL || f == NULL)
+		return ;
 	count = 0;
-	while (c[count] != '\0')
+	while (s[count] != '\0')
 	{
+		f(count, &s[count]);
 		count++;
 	}
-	return (count);
 }

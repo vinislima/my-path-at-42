@@ -1,27 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 14:56:20 by vinda-si          #+#    #+#             */
-/*   Updated: 2024/10/30 12:01:54 by vinda-si         ###   ########.fr       */
+/*   Created: 2024/10/30 08:26:29 by vinda-si          #+#    #+#             */
+/*   Updated: 2024/10/30 08:43:33 by vinda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include <unistd.h>
 
-size_t	ft_strlen(const char *c);
+void	ft_putstr_fd(char *s, int fd);
 
-size_t	ft_strlen(const char *c)
+void	ft_putstr_fd(char *s, int fd)
 {
-	size_t	count;
+	int	count;
 
+	if (s == NULL)
+		return ;
 	count = 0;
-	while (c[count] != '\0')
+	while (s[count] != '\0')
 	{
+		write(fd, &s[count], 1);
 		count++;
 	}
-	return (count);
 }
