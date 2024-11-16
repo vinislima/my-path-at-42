@@ -1,5 +1,3 @@
-# Untitled
-
 # **My path at [42 São Paulo](https://www.42sp.org.br/)**
 
 Portfolio of projects completed during my time at [42 São Paulo](https://www.42sp.org.br/).
