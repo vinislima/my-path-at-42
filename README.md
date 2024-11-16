@@ -6,8 +6,7 @@
 
 ## **`Projects`**
 
-<details>
-  <summary>* **`Piscine`**</summary>
+* **`Piscine`**
   `The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects, starting with the shell and progressing to tasks using the C programming language.`  
 * [`Shell 00`](https://github.com/vinislima/42sp_piscine_shell00)
 
@@ -67,5 +66,5 @@
 * **`ft_sort_int_tab`** `- Takes a pointer to an int and the size of an array, and sorts the array in ascending order.`
 
   `This set of exercises focuses on fundamental pointer and array manipulation concepts in C, aiming to strengthen students' understanding of pointer operations. Each task requires implementing a function without using external functions, except for the write function in the string display exercise. The exercises cover tasks such as assigning values to integers via pointers, swapping values between integers using pointers, performing mathematical operations (division and modulus) with results stored in pointers, handling strings including displaying and counting characters, and reversing and sorting integer arrays. Students are required to submit their code files as per the specifications of each exercise.`
-</details>
+
 
