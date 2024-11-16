@@ -7,9 +7,7 @@
 ## **`Projects`**
 
 <details>
-  <summary>
-* **`Piscine`**
-  </summary>
+  <summary>* **`Piscine`**</summary>
   `The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects, starting with the shell and progressing to tasks using the C programming language.`  
 * [`Shell 00`](https://github.com/vinislima/42sp_piscine_shell00)
 
