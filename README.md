@@ -5,8 +5,10 @@
 `42 São Paulo is an innovative educational institution that offers free software engineering training, using a unique peer-learning methodology based on practical projects. Without traditional teachers, the program is accessible 24/7 and lasts about 18 months, focusing on fundamental programming languages and advanced topics. The selection process includes an immersive phase called "Piscina", and the institution stands out for its high employability rate, with 85% of students entering the job market in the first year. Part of a global network with 35 campuses in 22 countries, 42 São Paulo prioritises diversity and inclusion, offering scholarships and developing not only technical skills but also essential competencies such as problem-solving and teamwork.`
 
 ## **`Projects`**
-
-* **`Piscine`**  
+<details>
+  <summary>
+* **`Piscine`**
+  </summary>
   `The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects, starting with the shell and progressing to tasks using the C programming language.`  
 * [`Shell 00`](https://github.com/vinislima/42sp_piscine_shell00)
 
@@ -66,5 +68,5 @@
 * **`ft_sort_int_tab`** `- Takes a pointer to an int and the size of an array, and sorts the array in ascending order.`
 
   `This set of exercises focuses on fundamental pointer and array manipulation concepts in C, aiming to strengthen students' understanding of pointer operations. Each task requires implementing a function without using external functions, except for the write function in the string display exercise. The exercises cover tasks such as assigning values to integers via pointers, swapping values between integers using pointers, performing mathematical operations (division and modulus) with results stored in pointers, handling strings including displaying and counting characters, and reversing and sorting integer arrays. Students are required to submit their code files as per the specifications of each exercise.`
-
+</details>
 
