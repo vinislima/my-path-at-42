@@ -5,6 +5,7 @@
 `42 São Paulo is an innovative educational institution that offers free software engineering training, using a unique peer-learning methodology based on practical projects. Without traditional teachers, the program is accessible 24/7 and lasts about 18 months, focusing on fundamental programming languages and advanced topics. The selection process includes an immersive phase called "Piscina", and the institution stands out for its high employability rate, with 85% of students entering the job market in the first year. Part of a global network with 35 campuses in 22 countries, 42 São Paulo prioritises diversity and inclusion, offering scholarships and developing not only technical skills but also essential competencies such as problem-solving and teamwork.`
 
 ## **`Projects`**
+
 <details>
   <summary>
 * **`Piscine`**
