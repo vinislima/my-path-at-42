@@ -5,8 +5,8 @@ Portfolio of projects completed during my time at [42 São Paulo](https://www.42
 42 São Paulo is an innovative educational institution that offers free software engineering training, using a unique peer-learning methodology based on practical projects. Without traditional teachers, the program is accessible 24/7 and lasts about 18 months, focusing on fundamental programming languages and advanced topics. The selection process includes an immersive phase called "Piscina", and the institution stands out for its high employability rate, with 85% of students entering the job market in the first year. Part of a global network with 35 campuses in 22 countries, 42 São Paulo prioritises diversity and inclusion, offering scholarships and developing not only technical skills but also essential competencies such as problem-solving and teamwork.
 
 ## **Projects**
-
-- **Piscine**
+<details>
+    <summary>- **Piscine**</summary>
     
     The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects, starting with the shell and progressing to tasks using the C programming language.
     
@@ -52,3 +52,4 @@ Portfolio of projects completed during my time at [42 São Paulo](https://www.42
         Students must follow strict norms and submit only the required files to pass the automated grading system, Moulinette. Adherence to these guidelines ensures the code compiles and functions correctly under specific compiler flags (`-Wall -Wextra -Werror`).
         
         ---
+</details>
