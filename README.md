@@ -58,3 +58,19 @@ Portfolio of projects completed during my time at [42 São Paulo](https://www.42
         Module C 04 focuses on string and numeric operations in C, blending fundamental skills like counting characters and outputting strings with intermediate tasks such as converting numbers between bases. The exercises build progressively, emphasising input validation and error handling, particularly in base conversions. This approach ensures a strong foundation for practical applications, such as handling user inputs and custom numeric systems, while strict norms and compiler constraints reinforce good coding practices for real-world development.
         
         Module C 04 provides a robust introduction to critical programming techniques in C, blending fundamental and intermediate concepts. By completing these exercises, students gain a deeper understanding of string and number manipulation, preparing them for more advanced challenges in subsequent modules.
+        
+- Warm Up
+    
+    The **warm-up at 42** serves as a preparatory phase to revisit the essential programming fundamentals learned during the Piscine. These exercises cover topics such as loops, functions, pointers, and data structures, reinforcing both syntactical and semantic foundations of the C language. Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teaching effective communication, empathy, and collaboration, which are core values of the 42 learning methodology. This phase helps students gain confidence and readiness for the challenges of the 42 curriculum.
+    
+    ---
+    
+    - [P2P 101](https://github.com/vinislima/42sp_common_core_p2p_101)
+        
+        The **P2P 101: Evaluation and Communication** project, which prepares 42 students for peer evaluations. It introduces the concept of **Nonviolent Communication (NVC)** to resolve conflicts and foster empathy during evaluations. The project includes exercises on applying NVC principles and scenarios to develop communication and problem-solving skills. It also explains the evaluation process, with flowcharts and practical guidelines.
+        
+    - [Piscine Reloaded](https://github.com/vinislima/42sp_common_core_reloaded)
+        
+        The **Piscine Reloaded** project, is a collection of exercises revisiting the fundamentals of programming in C. It covers topics such as loops, pointers, string manipulation, structures, and memory management. The goal is to reinforce the practical learning gained during the Piscine without reusing previous code. It includes specific submission rules and automated evaluation by the Moulinette, emphasising adherence to coding norms and practices.
+        
+- Common Core
