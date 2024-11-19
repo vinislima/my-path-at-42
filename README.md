@@ -58,5 +58,4 @@ Portfolio of projects completed during my time at [42 São Paulo](https://www.42
         Module C 04 focuses on string and numeric operations in C, blending fundamental skills like counting characters and outputting strings with intermediate tasks such as converting numbers between bases. The exercises build progressively, emphasising input validation and error handling, particularly in base conversions. This approach ensures a strong foundation for practical applications, such as handling user inputs and custom numeric systems, while strict norms and compiler constraints reinforce good coding practices for real-world development.
 
 Module C 04 provides a robust introduction to critical programming techniques in C, blending fundamental and intermediate concepts. By completing these exercises, students gain a deeper understanding of string and number manipulation, preparing them for more advanced challenges in subsequent modules.
-        
         ---
