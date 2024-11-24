@@ -8,7 +8,12 @@ Portfolio of projects completed during my time at [42 São Paulo](https://www.42
 
 ### **Piscine**
 
-The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects, starting with the shell and progressing to tasks using the C programming language.
+The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects.
+
+Starting with shell scripting and progressively advancing to tasks using the C programming language.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/peda-cos/peda-cos/main/badges/piscina.png"/>
+</p>
 
 ---
 
@@ -60,9 +65,16 @@ The Piscine is arguably the most crucial part of the 42 selection process, where
     Module C 04 provides a robust introduction to critical programming techniques in C, blending fundamental and intermediate concepts. By completing these exercises, students gain a deeper understanding of string and number manipulation, preparing them for more advanced challenges in subsequent modules.
     
 
-### Warm Up
+---
 
-The **warm-up at 42** serves as a preparatory phase to revisit the essential programming fundamentals learned during the Piscine. These exercises cover topics such as loops, functions, pointers, and data structures, reinforcing both syntactical and semantic foundations of the C language. Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teaching effective communication, empathy, and collaboration, which are core values of the 42 learning methodology. This phase helps students gain confidence and readiness for the challenges of the 42 curriculum.
+## Warm Up
+
+The **warm-up at 42** serves as a preparatory phase to revisit the essential programming fundamentals learned during the Piscine. These exercises cover topics such as loops, functions, pointers, and data structures, reinforcing both syntactical and semantic foundations of the C language.
+
+Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teaching effective communication, empathy, and collaboration, which are core values of the 42 learning methodology. This phase helps students gain confidence and readiness for the challenges of the 42 curriculum.
+<p align="center">
+    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/phase_onee.png?raw=true"/>
+</p>
 
 ---
 
@@ -77,4 +89,28 @@ The **warm-up at 42** serves as a preparatory phase to revisit the essential pro
     The **Piscine Reloaded** project, is a collection of exercises revisiting the fundamentals of programming in C. It covers topics such as loops, pointers, string manipulation, structures, and memory management. The goal is to reinforce the practical learning gained during the Piscine without reusing previous code. It includes specific submission rules and automated evaluation by the Moulinette, emphasising adherence to coding norms and practices.
     
 
-### Common Core
+---
+
+## Common Core
+
+### Milestone 0
+
+- [Libft](https://github.com/vinislima/42sp_common_core_libft)
+    
+    The **first milestone** at **42** is represented by the project **Libft**, which serves as one of the initial significant challenges students face after completing the basecamp. The primary goal of this project is to create a custom static library in C by reimplementing several standard functions from the C library (libc). Students must write their own versions of these functions, using a **Makefile** to compile the code properly. This library will be used in future projects, as reliance on the original standard C library functions is prohibited in most 42 projects. Through this milestone, students not only reinforce their understanding of fundamental programming concepts but also learn how to structure and organise code in a way that adheres to strict guidelines, which will be crucial for their success in more advanced projects. Additionally, it introduces them to automated testing and correction systems used by 42, such as the **Moulinette**, which evaluates code against specific criteria.
+    <p align="center">
+        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libfte.png?raw=true" />
+    </p>
+
+    ---
+
+### Milestone 1
+
+- [ft_printf](https://github.com/vinislima/42sp_common_core_ft_printf)
+    
+    The **ft_printf** project focuses on recreating the functionality of the standard C `printf()` function. It challenges participants to implement a custom version capable of handling various format specifiers, including `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X`, and `%%`. The goal is to develop a structured and efficient implementation that adheres to strict coding standards, ensuring memory safety and avoiding undefined behaviour. This exercise also introduces variadic functions, allowing the handling of a variable number of arguments, and offers an opportunity to enhance programming skills in C.
+    
+    In addition to the mandatory requirements, the project includes optional bonuses such as supporting flags (`-0.# +`) and field width specifications. However, these are only evaluated if the core implementation meets all requirements perfectly. Upon completion, the custom `ft_printf()` can be added to the participant’s personal library (*libft*), making it a valuable tool for future C projects.
+    
+- get_next_line
+- Born2beroot
