@@ -11,6 +11,7 @@ Portfolio of projects completed during my time at [42 São Paulo](https://www.42
 The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects.
 
 Starting with shell scripting and progressively advancing to tasks using the C programming language.
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/peda-cos/peda-cos/main/badges/piscina.png"/>
 </p>
@@ -64,14 +65,39 @@ Starting with shell scripting and progressively advancing to tasks using the C p
     
     Module C 04 provides a robust introduction to critical programming techniques in C, blending fundamental and intermediate concepts. By completing these exercises, students gain a deeper understanding of string and number manipulation, preparing them for more advanced challenges in subsequent modules.
     
+    ---
+    
+- [rush 00](https://github.com/vinislima/42sp_piscine_rush00)
+    
+    Rush 00 introduces students to collaborative programming in C by tasking them with generating patterns of rectangular shapes using character-based designs. The project integrates essential concepts such as handling output with `write`, managing control structures like nested loops, and ensuring input validation for edge cases. Teams must carefully follow strict coding norms and adhere to guidelines for project delivery, fostering discipline in code organisation and error management.
+    
+    Rush 00 offers a hands-on introduction to teamwork and foundational programming skills in C. By tackling this project, students gain practical experience in structured coding, develop attention to detail, and prepare for more complex challenges in the 42 curriculum.
+    
+    ---
+    
+- [rush 01](https://github.com/vinislima/42sp_piscine_rush01)
+    
+    Rush 01 focuses on solving constrained logic puzzles in C, combining foundational skills like input validation and error handling with intermediate problem-solving techniques for grid-based challenges. The project requires students to implement a program that places numbers in a 4x4 grid based on visibility clues, ensuring unique values in rows and columns while satisfying the constraints. Emphasis is placed on efficient algorithms, dynamic memory management, and strict adherence to coding norms.
+    
+    Rush 01 provides a comprehensive introduction to logical reasoning and advanced programming concepts in C. By completing this project, students strengthen their problem-solving skills, learn to manage complex inputs, and prepare for tackling more sophisticated challenges in future modules.
+    
+    ---
+    
+- [rush 02](https://github.com/vinislima/42sp_piscine_rush02/)
+    
+    Rush 02 focuses on text and numeric processing in C, combining foundational tasks such as parsing inputs and outputting text with intermediate challenges like dynamically managing dictionaries and converting numbers to their textual representations. The exercises emphasise robust error handling, memory management, and adherence to dictionary formatting rules, ensuring a solid foundation for handling complex inputs and structured data.
+    
+    Rush 02 offers a comprehensive introduction to key programming techniques in C, blending practical problem-solving with rigorous coding standards. By completing this project, students deepen their understanding of text processing, input validation, and dynamic memory usage, preparing them for more advanced challenges in subsequent modules.
+    
 
 ---
 
-## Warm Up
+### Warm Up
 
 The **warm-up at 42** serves as a preparatory phase to revisit the essential programming fundamentals learned during the Piscine. These exercises cover topics such as loops, functions, pointers, and data structures, reinforcing both syntactical and semantic foundations of the C language.
 
 Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teaching effective communication, empathy, and collaboration, which are core values of the 42 learning methodology. This phase helps students gain confidence and readiness for the challenges of the 42 curriculum.
+
 <p align="center">
     <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/phase_onee.png?raw=true"/>
 </p>
@@ -91,18 +117,20 @@ Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teac
 
 ---
 
-## Common Core
+### Common Core
 
 ### Milestone 0
 
 - [Libft](https://github.com/vinislima/42sp_common_core_libft)
     
     The **first milestone** at **42** is represented by the project **Libft**, which serves as one of the initial significant challenges students face after completing the basecamp. The primary goal of this project is to create a custom static library in C by reimplementing several standard functions from the C library (libc). Students must write their own versions of these functions, using a **Makefile** to compile the code properly. This library will be used in future projects, as reliance on the original standard C library functions is prohibited in most 42 projects. Through this milestone, students not only reinforce their understanding of fundamental programming concepts but also learn how to structure and organise code in a way that adheres to strict guidelines, which will be crucial for their success in more advanced projects. Additionally, it introduces them to automated testing and correction systems used by 42, such as the **Moulinette**, which evaluates code against specific criteria.
+    
     <p align="center">
         <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libfte.png?raw=true" />
     </p>
+    
 
-    ---
+---
 
 ### Milestone 1
 
@@ -112,5 +140,10 @@ Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teac
     
     In addition to the mandatory requirements, the project includes optional bonuses such as supporting flags (`-0.# +`) and field width specifications. However, these are only evaluated if the core implementation meets all requirements perfectly. Upon completion, the custom `ft_printf()` can be added to the participant’s personal library (*libft*), making it a valuable tool for future C projects.
     
+    ---
+    
 - get_next_line
+    
+    ---
+    
 - Born2beroot
