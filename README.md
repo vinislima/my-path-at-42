@@ -23,7 +23,7 @@ Starting with shell scripting and progressively advancing to tasks using the C p
     The "Shell 00" project, part of the 42 school C programming curriculum, introduces students to Unix shell scripting. The exercises progressively cover fundamental concepts, such as file permissions, basic shell commands, and scripting practices. Tasks include creating specific file outputs, working with Git commands, manipulating file systems, and writing scripts to automate operations like cleaning temporary files or identifying ignored files in a repository. The project emphasises meticulous attention to detail and peer-based evaluations, ensuring collaborative learning and mastery of shell programming basics.
     
 
----
+    ---
 
 - [Shell 01](https://github.com/vinislima/42sp_piscine_shell01)
     
