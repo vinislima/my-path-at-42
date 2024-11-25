@@ -139,7 +139,11 @@ Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teac
     The **ft_printf** project focuses on recreating the functionality of the standard C `printf()` function. It challenges participants to implement a custom version capable of handling various format specifiers, including `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X`, and `%%`. The goal is to develop a structured and efficient implementation that adheres to strict coding standards, ensuring memory safety and avoiding undefined behaviour. This exercise also introduces variadic functions, allowing the handling of a variable number of arguments, and offers an opportunity to enhance programming skills in C.
     
     In addition to the mandatory requirements, the project includes optional bonuses such as supporting flags (`-0.# +`) and field width specifications. However, these are only evaluated if the core implementation meets all requirements perfectly. Upon completion, the custom `ft_printf()` can be added to the participant’s personal library (*libft*), making it a valuable tool for future C projects.
-    
+
+  <p align="center">
+    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/ft_printfe.png?raw=true" />
+  </p>
+  
     ---
     
 - get_next_line
