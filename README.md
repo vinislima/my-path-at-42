@@ -119,6 +119,18 @@ Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teac
 
 ### Common Core
 
+The Common Core at 42 is the foundational stage of the curriculum, designed to provide a solid grounding in software engineering. Spanning 12 to 18 months, it prepares students for the technical challenges of the technology field through hands-on learning and real-world projects.
+
+Students begin their journey by exploring programming in `C` and `C++`, progressing from fundamental concepts to advanced topics such as imperative and object-oriented programming paradigms. This rigorous introduction lays the groundwork for understanding the intricacies of coding and software development.
+
+The curriculum also covers algorithms and data structures, equipping students with the skills to create efficient solutions and manipulate data effectively. These core topics are essential for tackling complex computational problems and optimising software performance.
+
+In addition, students delve into system architecture and networking. They learn the basics of `UNIX` system administration, gain an understanding of network architecture, and explore client-server programming, essential for building reliable and scalable systems.
+
+The programme further introduces graphic and web programming through projects like Fract-ol, which focuses on fractal creation, and `ft_transcendence`, which involves developing interactive web platforms. These projects allow students to experiment with creative and technical aspects of software design.
+
+---
+
 ### Milestone 0
 
 - [Libft](https://github.com/vinislima/42sp_common_core_libft)
