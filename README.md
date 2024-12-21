@@ -148,6 +148,21 @@ Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teac
     
 - get_next_line
     
+    The **get_next_line** project challenges participants to implement a function capable of reading one line at a time from a file descriptor. This function mimics the behavior of tools like `getline()` while adhering to strict constraints, such as dynamic memory management and efficiency. The project introduces concepts like static variables to retain state between function calls and buffered reading, ensuring optimal performance for both small and large files.
+
+    Key features of `get_next_line` include:
+
+    - Reading files incrementally using a buffer of predefined size (BUFFER_SIZE).
+    - Returning complete lines, including the newline character (\n), if present.
+    - Handling both standard input (stdin) and file descriptors.
+    - Safely managing memory to avoid leaks or undefined behavior.
+
+    This project emphasizes modularity, with the main logic distributed across helper functions for string manipulation and memory management. It tests the participant’s understanding of pointers, dynamic allocation, and error handling in C.
+
+  <p align="center">
+    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/get_next_linee.png?raw=true" />
+  </p>
+  
     ---
     
 - Born2beroot
