@@ -146,7 +146,7 @@ Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teac
   
     ---
     
-- get_next_line
+- [get_next_line](https://github.com/vinislima/42sp_common_core_get_next_line)
     
     The **get_next_line** project challenges participants to implement a function capable of reading one line at a time from a file descriptor. This function mimics the behavior of tools like `getline()` while adhering to strict constraints, such as dynamic memory management and efficiency. The project introduces concepts like static variables to retain state between function calls and buffered reading, ensuring optimal performance for both small and large files.
 
