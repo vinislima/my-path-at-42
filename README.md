@@ -155,7 +155,9 @@ The programme further introduces graphic and web programming through projects li
     In addition to the mandatory requirements, the project includes optional bonuses such as supporting flags (`-0.# +`) and field width specifications. However, these are only evaluated if the core implementation meets all requirements perfectly. Upon completion, the custom `ft_printf()` can be added to the participant’s personal library (*libft*), making it a valuable tool for future C projects.
 
   <p align="center">
-    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/ft_printfe.png?raw=true" />
+    <a href = "https://github.com/vinislima/42sp_common_core_ft_printf">
+        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/ft_printfe.png?raw=true" />
+    </a>
   </p>
   
     ---
@@ -174,7 +176,9 @@ The programme further introduces graphic and web programming through projects li
     This project emphasizes modularity, with the main logic distributed across helper functions for string manipulation and memory management. It tests the participant’s understanding of pointers, dynamic allocation, and error handling in C.
 
   <p align="center">
-    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/get_next_linee.png?raw=true" />
+    <a href = "https://github.com/vinislima/42sp_common_core_get_next_line">
+        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/get_next_linee.png?raw=true" />
+    </a>
   </p>
   
     ---
@@ -188,7 +192,9 @@ The programme further introduces graphic and web programming through projects li
     This challenge serves as an introduction to managing and securing servers, providing a strong foundation for future projects in system administration.
 
   <p align="center">
-    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/born2beroote.png?raw=true" />
+    <a href = "https://github.com/vinislima/42sp_common_core_born_2_be_root">
+        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/born2beroote.png?raw=true" />
+    </a>
   </p>
 
 ---
