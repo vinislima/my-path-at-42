@@ -138,7 +138,9 @@ The programme further introduces graphic and web programming through projects li
     The **first milestone** at **42** is represented by the project **Libft**, which serves as one of the initial significant challenges students face after completing the basecamp. The primary goal of this project is to create a custom static library in C by reimplementing several standard functions from the C library (libc). Students must write their own versions of these functions, using a **Makefile** to compile the code properly. This library will be used in future projects, as reliance on the original standard C library functions is prohibited in most 42 projects. Through this milestone, students not only reinforce their understanding of fundamental programming concepts but also learn how to structure and organise code in a way that adheres to strict guidelines, which will be crucial for their success in more advanced projects. Additionally, it introduces them to automated testing and correction systems used by 42, such as the **Moulinette**, which evaluates code against specific criteria.
     
     <p align="center">
-        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libfte.png?raw=true" />
+        <a href = "https://github.com/vinislima/42sp_common_core_libft">
+            <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libfte.png?raw=true" />
+        </a>
     </p>
     
 
