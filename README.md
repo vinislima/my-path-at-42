@@ -177,4 +177,14 @@ The programme further introduces graphic and web programming through projects li
   
     ---
     
-- Born2beroot
+- [Born2beroot](https://github.com/vinislima/42sp_common_core_born_2_be_root)
+
+    The **Born2beRoot** project introduces participants to system administration and the basics of virtualisation. The goal is to set up a virtual machine as a secure server, following strict guidelines. Participants choose between Debian or Rocky Linux to create a minimal and efficient environment without graphical interfaces.
+
+    The project emphasises key system administration concepts, including secure access, user management, encrypted storage, and service configuration. Additionally, a custom monitoring script is developed to automate system status reporting.
+
+    This challenge serves as an introduction to managing and securing servers, providing a strong foundation for future projects in system administration.
+
+  <p align="center">
+    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/born2beroote.png?raw=true" />
+  </p>
