@@ -188,3 +188,7 @@ The programme further introduces graphic and web programming through projects li
   <p align="center">
     <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/born2beroote.png?raw=true" />
   </p>
+
+---
+
+### Milestone 2
