@@ -20,7 +20,7 @@ Iniciamos com shell scripting e avançamos progressivamente para tarefas utiliza
 
 - [Shell 00](https://github.com/vinislima/42sp_piscine_shell00)
     
-    O projeto "Shell 00", integrante do currículo de programação em C da 42, apresenta os alunos à criação de scripts no shell Unix. Os exercícios abordam progressivamente conceitos fundamentais, como permissões de arquivos, comandos básicos do shell e práticas de script. Entre as tarefas, estão a criação de saídas específicas de arquivos, o uso de comandos Git, a manipulação de sistemas de arquivos e a elaboração de scripts para automatizar operações, como a limpeza de arquivos temporários ou a identificação de arquivos ignorados em um repositório. O projeto enfatiza a atenção meticulosa aos detalhes e as avaliações entre pares, garantindo um aprendizado colaborativo e a consolidação dos fundamentos da programação em shell.
+    O projeto "Shell 00", integrante do currículo de programação em C da 42, apresenta os alunos à criação de scripts no shell Unix. Os exercícios abordam progressivamente conceitos fundamentais, como permissões de arquivos, comandos básicos do shell e práticas de script. Entre as tarefas, estão a criação de saídas específicas de arquivos, o uso de comandos `Git`, a manipulação de sistemas de arquivos e a elaboração de scripts para automatizar operações, como a limpeza de arquivos temporários ou a identificação de arquivos ignorados em um repositório. O projeto enfatiza a atenção meticulosa aos detalhes e as avaliações entre pares, garantindo um aprendizado colaborativo e a consolidação dos fundamentos da programação em shell.
     
 
     ---
@@ -33,70 +33,70 @@ Iniciamos com shell scripting e avançamos progressivamente para tarefas utiliza
     
 - [C 00](https://github.com/vinislima/42sp_piscine_c00)
     
-    The "C 00" project introduces foundational programming concepts in C, targeting beginners. The exercises focus on creating basic functions, such as printing characters, numbers, and combinations of digits, adhering to strict coding norms. Tasks include writing functions to display the alphabet in various orders, checking number signs, and generating formatted outputs like number combinations. The project uses the write function exclusively, ensuring a low-level understanding of output handling. It aims to instil discipline coding habits and a grasp of fundamental programming logic while encouraging collaborative learning and peer evaluation.
+    O projeto "C 00" introduz conceitos fundamentais de programação em C, voltados para iniciantes. Os exercícios se concentram na criação de funções básicas, como a impressão de caracteres, números e combinações de dígitos, seguindo normas rigorosas de codificação. As tarefas incluem a escrita de funções para exibir o alfabeto em diversas ordens, verificar o sinal de números e gerar saídas formatadas, como combinações numéricas. O projeto utiliza exclusivamente a função `write`, assegurando uma compreensão aprofundada do gerenciamento de saída em nível baixo. Seu objetivo é incutir hábitos de codificação disciplinados e o domínio da lógica de programação, além de promover o aprendizado colaborativo e a avaliação entre pares.
     
     ---
     
 - [C 01](https://github.com/vinislima/42sp_piscine_c01)
     
-    This set of exercises focuses on fundamental pointer and array manipulation concepts in C, aiming to strengthen students' understanding of pointer operations. Each task requires implementing a function without using external functions, except for the write function in the string display exercise. The exercises cover tasks such as assigning values to integers via pointers, swapping values between integers using pointers, performing mathematical operations (division and modulus) with results stored in pointers, handling strings including displaying and counting characters, and reversing and sorting integer arrays. Students are required to submit their code files as per the specifications of each exercise.
+    Este conjunto de exercícios foca nos conceitos fundamentais de manipulação de ponteiros e `arrays` em C, com o objetivo de reforçar a compreensão dos alunos sobre operações com ponteiros. Cada tarefa requer a implementação de uma função sem o uso de funções externas, com exceção da função write, utilizada no exercício de exibição de strings. As atividades abrangem desde a atribuição de valores a inteiros através de ponteiros e a troca de valores entre inteiros, até a realização de operações matemáticas (divisão e módulo) com resultados armazenados em ponteiros. Além disso, os exercícios envolvem o manuseio de strings – incluindo a exibição e a contagem de caracteres – e a inversão e ordenação de arrays de inteiros. Os alunos devem submeter seus arquivos de código conforme as especificações de cada exercício.
     
     ---
     
 - [C 02](https://github.com/vinislima/42sp_piscine_c02)
     
-    This set of exercises in the C 02 module of the 42 Piscine focuses on string manipulation and memory operations. It involves implementing custom versions of standard library functions (`strcpy`, `strncpy`, `strlcpy`) and utility functions to check string characteristics (e.g., whether strings contain only alphabetic, numeric, printable, uppercase, or lowercase characters). Other tasks include transforming strings (to uppercase, lowercase, or capitalising words), displaying non-printable characters in hexadecimal, and printing memory regions with a formatted representation.
+    Este conjunto de exercícios no módulo C 02 da 42 Piscine foca na manipulação de strings e operações de memória. Envolve a implementação de versões personalizadas de funções da biblioteca padrão (como `strcpy`, `strncpy` e `strlcpy`) e de funções utilitárias para verificar características de strings (por exemplo, se as strings contêm apenas caracteres alfabéticos, numéricos, imprimíveis, maiúsculos ou minúsculos). Outras tarefas incluem transformar strings (para maiúsculas, minúsculas ou capitalizando palavras), exibir caracteres não imprimíveis em hexadecimal e imprimir regiões de memória com uma representação formatada.
     
-    The exercises increase in difficulty and aim to strengthen understanding of C strings, pointers, and memory management. Students must adhere to strict coding norms verified by the Moulinette and should submit their work as specified to pass the automated tests.
+    Os exercícios aumentam em dificuldade e têm como objetivo fortalecer a compreensão de strings, ponteiros e gerenciamento de memória em C. Os alunos devem seguir rigorosamente as normas de codificação, verificadas pela Moulinette, e submeter seu trabalho conforme as especificações para serem aprovados nos testes automatizados.
     
     ---
     
 - [C 03](https://github.com/vinislima/42sp_piscine_c03)
     
-    This module in the 42 C Piscine focuses on advanced string manipulation using functions that replicate behaviours from the C standard library. The tasks progress in difficulty, covering comparisons, concatenation, substring searches, and string length management.
+    Este módulo na Piscine de C da 42 foca na manipulação avançada de strings utilizando funções que replicam comportamentos da biblioteca padrão de C. As tarefas progridem em dificuldade, abrangendo comparações, concatenação, busca por substrings e gerenciamento do tamanho das strings.
     
-    Students must follow strict norms and submit only the required files to pass the automated grading system, Moulinette. Adherence to these guidelines ensures the code compiles and functions correctly under specific compiler flags (`-Wall -Wextra -Werror`).
+    Os alunos devem seguir normas rigorosas e submeter apenas os arquivos exigidos para serem aprovados no sistema de correção automatizada, Moulinette. O cumprimento dessas diretrizes garante que o código compile e funcione corretamente sob flags específicas do compilador (`-Wall -Wextra -Werror`).
     
     ---
     
 - [C 04](https://github.com/vinislima/42sp_piscine_c04)
     
-    Module C 04 focuses on string and numeric operations in C, blending fundamental skills like counting characters and outputting strings with intermediate tasks such as converting numbers between bases. The exercises build progressively, emphasising input validation and error handling, particularly in base conversions. This approach ensures a strong foundation for practical applications, such as handling user inputs and custom numeric systems, while strict norms and compiler constraints reinforce good coding practices for real-world development.
+    O módulo C 04 foca em operações com strings e números em `C`, mesclando habilidades fundamentais — como contar caracteres e exibir strings — com tarefas intermediárias, como converter números entre diferentes bases. Os exercícios evoluem de forma progressiva, com ênfase na validação de entrada e no tratamento de erros, especialmente nas conversões de base. Essa abordagem garante uma base sólida para aplicações práticas, como o processamento de entradas do usuário e sistemas numéricos personalizados, enquanto as normas rígidas e as restrições de compilação reforçam boas práticas de codificação voltadas para o desenvolvimento no mundo real.
     
-    Module C 04 provides a robust introduction to critical programming techniques in C, blending fundamental and intermediate concepts. By completing these exercises, students gain a deeper understanding of string and number manipulation, preparing them for more advanced challenges in subsequent modules.
+    O módulo C 04 oferece uma introdução sólida a técnicas essenciais de programação em C, combinando conceitos fundamentais e intermediários. Ao concluir esses exercícios, os alunos aprofundam sua compreensão sobre manipulação de strings e números, preparando-se para desafios mais avançados nos módulos seguintes.
     
     ---
     
 - [rush 00](https://github.com/vinislima/42sp_piscine_rush00)
     
-    Rush 00 introduces students to collaborative programming in C by tasking them with generating patterns of rectangular shapes using character-based designs. The project integrates essential concepts such as handling output with `write`, managing control structures like nested loops, and ensuring input validation for edge cases. Teams must carefully follow strict coding norms and adhere to guidelines for project delivery, fostering discipline in code organisation and error management.
+   O Rush 00 introduz os alunos à programação colaborativa em C, desafiando-os a gerar padrões de formas retangulares utilizando caracteres. O projeto integra conceitos essenciais como o uso da função `write` para saída, o controle de estruturas como laços aninhados e a validação de entrada para lidar com casos extremos. As equipes devem seguir rigorosamente as normas de codificação e respeitar as diretrizes de entrega do projeto, incentivando a disciplina na organização do código e no tratamento de erros.
     
-    Rush 00 offers a hands-on introduction to teamwork and foundational programming skills in C. By tackling this project, students gain practical experience in structured coding, develop attention to detail, and prepare for more complex challenges in the 42 curriculum.
+    O Rush 00 oferece uma introdução prática ao trabalho em equipe e às habilidades fundamentais de programação em C. Ao enfrentar esse projeto, os alunos ganham experiência concreta em codificação estruturada, desenvolvem atenção aos detalhes e se preparam para desafios mais complexos ao longo da formação na 42.
     
     ---
     
 - [rush 01](https://github.com/vinislima/42sp_piscine_rush01)
     
-    Rush 01 focuses on solving constrained logic puzzles in C, combining foundational skills like input validation and error handling with intermediate problem-solving techniques for grid-based challenges. The project requires students to implement a program that places numbers in a 4x4 grid based on visibility clues, ensuring unique values in rows and columns while satisfying the constraints. Emphasis is placed on efficient algorithms, dynamic memory management, and strict adherence to coding norms.
+    O Rush 01 foca na resolução de quebra-cabeças lógicos com restrições, utilizando a linguagem C. O projeto combina habilidades fundamentais, como validação de entrada e tratamento de erros, com técnicas intermediárias de resolução de problemas voltadas para desafios em grade. Os alunos devem implementar um programa que preencha uma matriz 4x4 com números, baseando-se em pistas de visibilidade, garantindo valores únicos nas linhas e colunas e respeitando todas as restrições. Há uma ênfase especial na criação de algoritmos eficientes, no gerenciamento dinâmico de memória e na obediência rigorosa às normas de codificação.
     
-    Rush 01 provides a comprehensive introduction to logical reasoning and advanced programming concepts in C. By completing this project, students strengthen their problem-solving skills, learn to manage complex inputs, and prepare for tackling more sophisticated challenges in future modules.
+    O Rush 01 oferece uma introdução abrangente ao raciocínio lógico e a conceitos avançados de programação em C. Ao concluir esse projeto, os alunos fortalecem suas habilidades de resolução de problemas, aprendem a lidar com entradas complexas e se preparam para enfrentar desafios mais sofisticados nos módulos futuros.
     
     ---
     
 - [rush 02](https://github.com/vinislima/42sp_piscine_rush02/)
     
-    Rush 02 focuses on text and numeric processing in C, combining foundational tasks such as parsing inputs and outputting text with intermediate challenges like dynamically managing dictionaries and converting numbers to their textual representations. The exercises emphasise robust error handling, memory management, and adherence to dictionary formatting rules, ensuring a solid foundation for handling complex inputs and structured data.
+    O Rush 02 foca no processamento de texto e números em C, combinando tarefas fundamentais, como a leitura de entradas e a exibição de texto, com desafios intermediários, como o gerenciamento dinâmico de dicionários e a conversão de números para suas representações textuais. Os exercícios dão ênfase ao tratamento robusto de erros, ao gerenciamento de memória e ao respeito às regras de formatação do dicionário, garantindo uma base sólida para lidar com entradas complexas e dados estruturados.
     
-    Rush 02 offers a comprehensive introduction to key programming techniques in C, blending practical problem-solving with rigorous coding standards. By completing this project, students deepen their understanding of text processing, input validation, and dynamic memory usage, preparing them for more advanced challenges in subsequent modules.
+    O Rush 02 oferece uma introdução completa a técnicas essenciais de programação em C, unindo resolução prática de problemas com padrões rigorosos de codificação. Ao concluir esse projeto, os alunos aprofundam seus conhecimentos em processamento de texto, validação de entrada e uso dinâmico de memória, preparando-se para desafios mais avançados nos módulos seguintes.
     
 
 ---
 
 ### Warm Up
 
-The **warm-up at 42** serves as a preparatory phase to revisit the essential programming fundamentals learned during the Piscine. These exercises cover topics such as loops, functions, pointers, and data structures, reinforcing both syntactical and semantic foundations of the C language.
+O **aquecimento** na 42 funciona como uma fase preparatória para revisitar os fundamentos essenciais de programação aprendidos durante a Piscine. Esses exercícios abordam tópicos como laços, funções, ponteiros e estruturas de dados, reforçando tanto a base sintática quanto a semântica da linguagem C.
 
-Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teaching effective communication, empathy, and collaboration, which are core values of the 42 learning methodology. This phase helps students gain confidence and readiness for the challenges of the 42 curriculum.
+Junto com as habilidades técnicas, o aquecimento introduz a avaliação entre pares, ensinando comunicação eficaz, empatia e colaboração, que são valores centrais da metodologia de aprendizado da 42. Essa fase ajuda os alunos a ganhar confiança e se preparar para os desafios do currículo da 42.
 
 <p align="center">
     <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/phase_onee.png?raw=true"/>
@@ -106,13 +106,13 @@ Alongside technical skills, the warm-up introduces peer-to-peer evaluation, teac
 
 - [P2P 101](https://github.com/vinislima/42sp_common_core_p2p_101)
     
-    The **P2P 101: Evaluation and Communication** project, which prepares 42 students for peer evaluations. It introduces the concept of **Nonviolent Communication (NVC)** to resolve conflicts and foster empathy during evaluations. The project includes exercises on applying NVC principles and scenarios to develop communication and problem-solving skills. It also explains the evaluation process, with flowcharts and practical guidelines.
+    O projeto **P2P 101: Avaliação e Comunicação** prepara os alunos da 42 para avaliações entre pares. Ele introduz o conceito de **Comunicação Não-Violenta (CNV)** para resolver conflitos e promover empatia durante as avaliações. O projeto inclui exercícios sobre a aplicação dos princípios e cenários da CNV, com o objetivo de desenvolver habilidades de comunicação e resolução de problemas. Também explica o processo de avaliação, com fluxogramas e diretrizes práticas.
     
     ---
     
 - [Piscine Reloaded](https://github.com/vinislima/42sp_common_core_reloaded)
     
-    The **Piscine Reloaded** project, is a collection of exercises revisiting the fundamentals of programming in C. It covers topics such as loops, pointers, string manipulation, structures, and memory management. The goal is to reinforce the practical learning gained during the Piscine without reusing previous code. It includes specific submission rules and automated evaluation by the Moulinette, emphasising adherence to coding norms and practices.
+    O projeto **Piscine Reloaded** é uma coleção de exercícios que revisita os fundamentos da programação em C. Ele abrange tópicos como laços, ponteiros, manipulação de strings, estruturas e gerenciamento de memória. O objetivo é reforçar o aprendizado prático adquirido durante a Piscine, sem reutilizar o código anterior. O projeto inclui regras específicas de submissão e avaliação automatizada pela Moulinette, com ênfase no cumprimento das normas e práticas de codificação.
     
 
 ---
