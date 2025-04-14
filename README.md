@@ -94,7 +94,7 @@ Iniciamos com shell scripting e avançamos progressivamente para tarefas utiliza
 
 ### Warm Up
 
-O **aquecimento** na 42 funciona como uma fase preparatória para revisitar os fundamentos essenciais de programação aprendidos durante a Piscine. Esses exercícios abordam tópicos como laços, funções, ponteiros e estruturas de dados, reforçando tanto a base sintática quanto a semântica da linguagem C.
+O **Warm Up** na 42 funciona como uma fase preparatória para revisitar os fundamentos essenciais de programação aprendidos durante a Piscine. Esses exercícios abordam tópicos como laços, funções, ponteiros e estruturas de dados, reforçando tanto a base sintática quanto a semântica da linguagem C.
 
 Junto com as habilidades técnicas, o aquecimento introduz a avaliação entre pares, ensinando comunicação eficaz, empatia e colaboração, que são valores centrais da metodologia de aprendizado da 42. Essa fase ajuda os alunos a ganhar confiança e se preparar para os desafios do currículo da 42.
 
