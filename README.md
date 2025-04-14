@@ -119,15 +119,15 @@ Junto com as habilidades técnicas, o aquecimento introduz a avaliação entre p
 
 ### Common Core
 
-The Common Core at 42 is the foundational stage of the curriculum, designed to provide a solid grounding in software engineering. Spanning 12 to 18 months, it prepares students for the technical challenges of the technology field through hands-on learning and real-world projects.
+O **Common Core** da 42 é a etapa fundamental do currículo, projetada para oferecer uma base sólida em engenharia de software. Com duração de 12 a 18 meses, essa fase prepara os alunos para os desafios técnicos da área de tecnologia por meio de aprendizado prático e projetos inspirados em situações do mundo real.
 
-Students begin their journey by exploring programming in `C` and `C++`, progressing from fundamental concepts to advanced topics such as imperative and object-oriented programming paradigms. This rigorous introduction lays the groundwork for understanding the intricacies of coding and software development.
+Os alunos iniciam sua jornada explorando a programação em `C` e `C++`, passando de conceitos fundamentais a tópicos avançados, como os paradigmas imperativo e orientado a objetos. Essa introdução rigorosa estabelece as bases para compreender a fundo as complexidades da codificação e do desenvolvimento de software.
 
-The curriculum also covers algorithms and data structures, equipping students with the skills to create efficient solutions and manipulate data effectively. These core topics are essential for tackling complex computational problems and optimising software performance.
+O currículo também abrange algoritmos e estruturas de dados, capacitando os alunos a criar soluções eficientes e a manipular dados de forma eficaz. Esses tópicos centrais são essenciais para enfrentar problemas computacionais complexos e otimizar o desempenho de softwares.
 
-In addition, students delve into system architecture and networking. They learn the basics of `UNIX` system administration, gain an understanding of network architecture, and explore client-server programming, essential for building reliable and scalable systems.
+Além disso, os alunos mergulham em arquitetura de sistemas e redes. Eles aprendem os fundamentos da administração de sistemas `UNIX`, adquirem uma compreensão sobre a arquitetura de redes e exploram a programação cliente-servidor — conhecimentos essenciais para a construção de sistemas confiáveis e escaláveis.
 
-The programme further introduces graphic and web programming through projects like Fract-ol, which focuses on fractal creation, and `ft_transcendence`, which involves developing interactive web platforms. These projects allow students to experiment with creative and technical aspects of software design.
+O programa também introduz programação gráfica e web por meio de projetos como o `Fract-ol`, focado na criação de fractais, e o `ft_transcendence`, que envolve o desenvolvimento de plataformas web interativas. Esses projetos permitem que os alunos experimentem aspectos criativos e técnicos do design de software.
 
 ---
 
@@ -135,7 +135,7 @@ The programme further introduces graphic and web programming through projects li
 
 - [Libft](https://github.com/vinislima/42sp_common_core_libft)
     
-    The **first milestone** at **42** is represented by the project **Libft**, which serves as one of the initial significant challenges students face after completing the basecamp. The primary goal of this project is to create a custom static library in C by reimplementing several standard functions from the C library (libc). Students must write their own versions of these functions, using a **Makefile** to compile the code properly. This library will be used in future projects, as reliance on the original standard C library functions is prohibited in most 42 projects. Through this milestone, students not only reinforce their understanding of fundamental programming concepts but also learn how to structure and organise code in a way that adheres to strict guidelines, which will be crucial for their success in more advanced projects. Additionally, it introduces them to automated testing and correction systems used by 42, such as the **Moulinette**, which evaluates code against specific criteria.
+    A primeira **milestone** na 42 é representado pelo projeto `Libft`, um dos primeiros grandes desafios que os alunos enfrentam após concluir o **warmup**. O objetivo principal do projeto é criar uma biblioteca estática personalizada em C, reimplementando diversas funções da biblioteca padrão (`libc`). Os alunos devem escrever suas próprias versões dessas funções e utilizar um `Makefile` para compilar o código corretamente. Essa biblioteca será reutilizada em projetos futuros, já que o uso direto das funções da biblioteca padrão em C é proibido na maioria dos projetos da 42. Com essa milestone, os alunos não apenas reforçam sua compreensão sobre os conceitos fundamentais de programação, como também aprendem a estruturar e organizar o código de acordo com diretrizes rigorosas — algo essencial para o sucesso em projetos mais avançados. Além disso, esse projeto introduz os sistemas de testes e correções automatizadas utilizados pela 42, como a Moulinette, que avalia o código com base em critérios específicos.
     
     <p align="center">
         <a href = "https://github.com/vinislima/42sp_common_core_libft">
@@ -150,9 +150,9 @@ The programme further introduces graphic and web programming through projects li
 
 - [ft_printf](https://github.com/vinislima/42sp_common_core_ft_printf)
     
-    The **ft_printf** project focuses on recreating the functionality of the standard C `printf()` function. It challenges participants to implement a custom version capable of handling various format specifiers, including `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X`, and `%%`. The goal is to develop a structured and efficient implementation that adheres to strict coding standards, ensuring memory safety and avoiding undefined behaviour. This exercise also introduces variadic functions, allowing the handling of a variable number of arguments, and offers an opportunity to enhance programming skills in C.
+   O projeto **ft_printf** tem como foco recriar a funcionalidade da função `printf()` da biblioteca padrão em C. Ele desafia os participantes a implementar uma versão personalizada capaz de lidar com diversos especificadores de formato, como `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X` e `%%`. O objetivo é desenvolver uma implementação estruturada e eficiente, respeitando padrões rigorosos de codificação, garantindo segurança de memória e evitando comportamentos indefinidos. Esse exercício também introduz o uso de funções variádicas, permitindo o tratamento de um número variável de argumentos, além de oferecer uma excelente oportunidade para aprofundar as habilidades de programação em C.
     
-    In addition to the mandatory requirements, the project includes optional bonuses such as supporting flags (`-0.# +`) and field width specifications. However, these are only evaluated if the core implementation meets all requirements perfectly. Upon completion, the custom `ft_printf()` can be added to the participant’s personal library (*libft*), making it a valuable tool for future C projects.
+    Além dos requisitos obrigatórios, o projeto inclui bônus opcionais, como o suporte a flags (`-0.# +`) e especificações de largura de campo. No entanto, esses bônus só são avaliados caso a implementação principal atenda perfeitamente a todos os critérios exigidos. Ao concluir o projeto, a versão personalizada do `ft_printf()` pode ser integrada à biblioteca pessoal do participante (`libft`), tornando-se uma ferramenta valiosa para projetos futuros em C.
 
   <p align="center">
     <a href = "https://github.com/vinislima/42sp_common_core_ft_printf">
@@ -164,16 +164,16 @@ The programme further introduces graphic and web programming through projects li
     
 - [get_next_line](https://github.com/vinislima/42sp_common_core_get_next_line)
     
-    The **get_next_line** project challenges participants to implement a function capable of reading one line at a time from a file descriptor. This function mimics the behavior of tools like `getline()` while adhering to strict constraints, such as dynamic memory management and efficiency. The project introduces concepts like static variables to retain state between function calls and buffered reading, ensuring optimal performance for both small and large files.
+    O projeto **get_next_line** desafia os participantes a implementar uma função capaz de ler uma linha por vez a partir de um `file descriptor`. Essa função imita o comportamento de ferramentas como `getline()`, mas deve respeitar restrições rigorosas, como o gerenciamento dinâmico de memória e a busca por eficiência. O projeto introduz conceitos como o uso de variáveis estáticas para manter o estado entre chamadas da função e leitura com buffer, garantindo um desempenho otimizado tanto para arquivos pequenos quanto para arquivos grandes.
 
-    Key features of `get_next_line` include:
+    Principais características do `get_next_line` incluem:
 
-    - Reading files incrementally using a buffer of predefined size (BUFFER_SIZE).
-    - Returning complete lines, including the newline character (\n), if present.
-    - Handling both standard input (stdin) and file descriptors.
-    - Safely managing memory to avoid leaks or undefined behavior.
+    - Leitura incremental de arquivos utilizando um buffer de tamanho pré-definido (`BUFFER_SIZE`).
+    - Retorno de linhas completas, incluindo o caractere de nova linha (`\n`), quando presente.
+    - Suporte tanto para a entrada padrão (`stdin`) quanto para descritores de arquivos.
+    - Gerenciamento seguro de memória para evitar vazamentos ou comportamentos indefinidos.
 
-    This project emphasizes modularity, with the main logic distributed across helper functions for string manipulation and memory management. It tests the participant’s understanding of pointers, dynamic allocation, and error handling in C.
+    Este projeto enfatiza a modularidade, com a lógica principal distribuída entre funções auxiliares para manipulação de strings e gerenciamento de memória. Ele testa a compreensão do participante sobre ponteiros, alocação dinâmica e tratamento de erros em C.
 
   <p align="center">
     <a href = "https://github.com/vinislima/42sp_common_core_get_next_line">
@@ -185,11 +185,11 @@ The programme further introduces graphic and web programming through projects li
     
 - [Born2beroot](https://github.com/vinislima/42sp_common_core_born_2_be_root)
 
-    The **Born2beRoot** project introduces participants to system administration and the basics of virtualisation. The goal is to set up a virtual machine as a secure server, following strict guidelines. Participants choose between Debian or Rocky Linux to create a minimal and efficient environment without graphical interfaces.
+    O projeto **Born2beRoot** introduz os participantes à administração de sistemas e aos fundamentos da virtualização. O objetivo é configurar uma máquina virtual como um servidor seguro, seguindo diretrizes rigorosas. Os participantes escolhem entre `Debian` ou `Rocky Linux` para criar um ambiente minimalista e eficiente, sem interfaces gráficas.
 
-    The project emphasises key system administration concepts, including secure access, user management, encrypted storage, and service configuration. Additionally, a custom monitoring script is developed to automate system status reporting.
+    O projeto enfatiza conceitos-chave de administração de sistemas, incluindo acesso seguro, gerenciamento de usuários, armazenamento criptografado e configuração de serviços. Além disso, um script de monitoramento personalizado é desenvolvido para automatizar o relatório de status do sistema.
 
-    This challenge serves as an introduction to managing and securing servers, providing a strong foundation for future projects in system administration.
+    Esse desafio serve como uma introdução ao gerenciamento e à segurança de servidores, proporcionando uma base sólida para projetos futuros na administração de sistemas.
 
   <p align="center">
     <a href = "https://github.com/vinislima/42sp_common_core_born_2_be_root">
