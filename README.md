@@ -1,16 +1,16 @@
 # **My path at [42 São Paulo](https://www.42sp.org.br/)**
 
-Portfolio of projects completed during my time at [42 São Paulo](https://www.42sp.org.br/).
+Portfólio de projetos realizados durante meu período na [42 São Paulo](https://www.42sp.org.br/).
 
-42 São Paulo is an innovative educational institution that offers free software engineering training, using a unique peer-learning methodology based on practical projects. Without traditional teachers, the program is accessible 24/7 and lasts about 18 months, focusing on fundamental programming languages and advanced topics. The selection process includes an immersive phase called "Piscina", and the institution stands out for its high employability rate, with 85% of students entering the job market in the first year. Part of a global network with 35 campuses in 22 countries, 42 São Paulo prioritises diversity and inclusion, offering scholarships and developing not only technical skills but also essential competencies such as problem-solving and teamwork.
+42 São Paulo é uma instituição educacional inovadora que oferece treinamento gratuito em engenharia de software, utilizando uma metodologia única de aprendizado colaborativo baseada em projetos práticos. Sem professores tradicionais, o programa está disponível 24 horas por dia, 7 dias por semana, com duração de aproximadamente 18 meses, focando em linguagens de programação fundamentais e tópicos avançados. O processo de seleção inclui uma fase imersiva denominada "Piscina", e a instituição se destaca pela alta taxa de empregabilidade, com 85% dos alunos ingressando no mercado de trabalho no primeiro ano. Parte de uma rede global com 35 campi distribuídos em 22 países, a 42 São Paulo prioriza a diversidade e a inclusão, oferecendo bolsas de estudo e desenvolvendo não apenas habilidades técnicas, mas também competências essenciais, como a resolução de problemas e o trabalho em equipe.
 
-## **Projects**
+## **Projetos**
 
-### **Piscine**
+### **Piscina**
 
-The Piscine is arguably the most crucial part of the 42 selection process, where we undertake a variety of projects.
+A Piscine é, sem dúvida, a parte mais crucial do processo seletivo da 42, onde desenvolvemos uma variedade de projetos.
 
-Starting with shell scripting and progressively advancing to tasks using the C programming language.
+Iniciamos com shell scripting e avançamos progressivamente para tarefas utilizando a linguagem de programação C.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/peda-cos/peda-cos/main/badges/piscina.png"/>
@@ -20,14 +20,14 @@ Starting with shell scripting and progressively advancing to tasks using the C p
 
 - [Shell 00](https://github.com/vinislima/42sp_piscine_shell00)
     
-    The "Shell 00" project, part of the 42 school C programming curriculum, introduces students to Unix shell scripting. The exercises progressively cover fundamental concepts, such as file permissions, basic shell commands, and scripting practices. Tasks include creating specific file outputs, working with Git commands, manipulating file systems, and writing scripts to automate operations like cleaning temporary files or identifying ignored files in a repository. The project emphasises meticulous attention to detail and peer-based evaluations, ensuring collaborative learning and mastery of shell programming basics.
+    O projeto "Shell 00", integrante do currículo de programação em C da 42, apresenta os alunos à criação de scripts no shell Unix. Os exercícios abordam progressivamente conceitos fundamentais, como permissões de arquivos, comandos básicos do shell e práticas de script. Entre as tarefas, estão a criação de saídas específicas de arquivos, o uso de comandos Git, a manipulação de sistemas de arquivos e a elaboração de scripts para automatizar operações, como a limpeza de arquivos temporários ou a identificação de arquivos ignorados em um repositório. O projeto enfatiza a atenção meticulosa aos detalhes e as avaliações entre pares, garantindo um aprendizado colaborativo e a consolidação dos fundamentos da programação em shell.
     
 
     ---
 
 - [Shell 01](https://github.com/vinislima/42sp_piscine_shell01)
     
-    The "Shell 01" project from the 42 school focuses on advanced shell scripting skills. It consists of exercises that develop proficiency in Unix commands and scripting logic, such as listing user groups, finding and counting files, extracting MAC addresses, and manipulating text output. Students are also challenged with creative tasks, like creating files with specific names and performing arithmetic operations using custom numeral systems. The project emphasises careful problem-solving, strict syntax adherence, and collaboration among peers while reinforcing core shell scripting concepts.
+    O projeto "Shell 01" da 42 concentra-se no desenvolvimento avançado de habilidades em scripting no shell. Ele consiste em exercícios que aprimoram a proficiência em comandos Unix e lógica de script, como a listagem de grupos de usuários, a busca e a contagem de arquivos, a extração de endereços MAC e a manipulação da saída de texto. Os alunos também são desafiados com tarefas criativas, como criar arquivos com nomes específicos e realizar operações aritméticas utilizando sistemas numéricos personalizados. O projeto enfatiza a resolução cuidadosa de problemas, o rigor na aderência à sintaxe e a colaboração entre pares, reforçando assim os conceitos fundamentais do scripting no shell.
     
     ---
     
