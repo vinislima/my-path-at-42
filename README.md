@@ -215,36 +215,46 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
 
 ---
 
-  - [minitalk](https://github.com/vinislima/42sp_common_core_minitalk)
+- [minitalk](https://github.com/vinislima/42sp_common_core_minitalk)
+    
+    <p align="center">
+        <a href = "https://github.com/vinislima/42sp_common_core_born_2_be_root">
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/minitalkm.png" />
+        </a>
+    </p>
     
     O projeto **minitalk** tem como foco recriar um sistema mínimo de comunicação entre processos em C, usando apenas sinais UNIX (`SIGUSR1` e `SIGUSR2`). Ele desafia os participantes a desenvolver dois programas — um **server** e um **client** — capazes de transmitir texto bit a bit sem recorrer a pipes, sockets ou memória compartilhada. O servidor deve exibir seu PID ao iniciar e ficar aguardando sinais; o cliente recebe o PID do servidor e uma string, converte cada caractere em sequência de bits e envia sinais, sincronizando via `pause()` até receber confirmação antes de prosseguir.
-
-    Nos requisitos obrigatórios, é preciso instalar handlers com `signal()` ou `sigaction()`, codificar “0” e “1” em sinais distintos, garantir que o servidor reconstrua e exiba corretamente a mensagem (incluindo caracteres especiais e `\n`), e tratar erros como PID inválido ou falha no envio de sinal.  
-
-    Como bônus, o projeto pode incluir suporte a múltiplos clientes simultâneos, mantendo estados de comunicação separados por PID, além de implementar temporizadores para evitar deadlocks, tratamento de sinais interrompidos e otimizações para mensagens longas sem perda de dados.
-
-    Ao concluir, os executáveis `server` e `client` podem ser integrados à sua biblioteca pessoal (`libft`), oferecendo uma ferramenta prática para futuros exercícios de comunicação de processos em C.
-
-  <p align="center">
-    <a href = "https://github.com/vinislima/42sp_common_core_ft_printf">
-        <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/minitalkm.png" />
-    </a>
-  </p>
-  
-   ---
     
-  - [minitalk](https://github.com/vinislima/42sp_common_core_minitalk)
+    Nos requisitos obrigatórios, é preciso instalar handlers com `signal()` ou `sigaction()`, codificar “0” e “1” em sinais distintos, garantir que o servidor reconstrua e exiba corretamente a mensagem (incluindo caracteres especiais e `\n`), e tratar erros como PID inválido ou falha no envio de sinal.
     
-    O projeto **minitalk** tem como foco recriar um sistema mínimo de comunicação entre processos em C, usando apenas sinais UNIX (`SIGUSR1` e `SIGUSR2`). Ele desafia os participantes a desenvolver dois programas — um **server** e um **client** — capazes de transmitir texto bit a bit sem recorrer a pipes, sockets ou memória compartilhada. O servidor deve exibir seu PID ao iniciar e ficar aguardando sinais; o cliente recebe o PID do servidor e uma string, converte cada caractere em sequência de bits e envia sinais, sincronizando via `pause()` até receber confirmação antes de prosseguir.
-
-    Nos requisitos obrigatórios, é preciso instalar handlers com `signal()` ou `sigaction()`, codificar “0” e “1” em sinais distintos, garantir que o servidor reconstrua e exiba corretamente a mensagem (incluindo caracteres especiais e `\n`), e tratar erros como PID inválido ou falha no envio de sinal.  
-
     Como bônus, o projeto pode incluir suporte a múltiplos clientes simultâneos, mantendo estados de comunicação separados por PID, além de implementar temporizadores para evitar deadlocks, tratamento de sinais interrompidos e otimizações para mensagens longas sem perda de dados.
-
+    
     Ao concluir, os executáveis `server` e `client` podem ser integrados à sua biblioteca pessoal (`libft`), oferecendo uma ferramenta prática para futuros exercícios de comunicação de processos em C.
+    
+    ---
+    
+- [Exam Rank 02](https://github.com/vinislima/42sp_common_core_exams/tree/main)
+    
+    <p align="center">
+        <a href = "https://github.com/vinislima/42sp_common_core_born_2_be_root">
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/exam_rank_02.png" />
+        </a>
+    </p>
+    
+    **[Level 01: Fundamentos de C](https://github.com/vinislima/42sp_common_core_exams/tree/main/exam_rank_02/level_01)**
 
-  <p align="center">
-    <a href = "https://github.com/vinislima/42sp_common_core_ft_printf">
-        <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/minitalkm.png" />
-    </a>
-  </p>
+    O primeiro nível é dedicado a consolidar os conceitos básicos de C, como tipos primitivos, operadores aritméticos e controle de fluxo (if/else, loops). Os participantes desenvolvem funções simples — por          exemplo, ft_abs.c, que calcula o valor absoluto de um inteiro usando operadores condicionais; e is_alpha.c, que verifica se um caractere pertence ao alfabeto por meio de comparações diretas. Nessa fase, é        essencial aprender a tratar entradas válidas e inválidas, preparar protótipos claros e garantir que o código compile sem warnings.
+
+    **[Level 02: Lógica Intermediária e Arrays](https://github.com/vinislima/42sp_common_core_exams/tree/main/exam_rank_02/level_02)**
+
+    Neste estágio, o foco se volta à manipulação de arrays e aplicação de estruturas de repetição. Os alunos criam funções que iteram sobre coleções de dados, validam inputs e tratam bordas como arrays nulos ou     vazios. Em max.c, por exemplo, a tarefa é identificar o maior elemento de um array, retornando um valor padrão quando o ponteiro for nulo ou o tamanho for zero. Já em safe_sum.c, desenvolve-se uma soma segura     de inteiros, com checagens antecipadas para evitar comportamento indefinido.
+
+    **[Level 3: Recursão e Estruturas Dinâmicas](https://github.com/vinislima/42sp_common_core_exams/tree/main/exam_rank_02/level_03)**
+
+    O terceiro nível apresenta recursão e estruturas alocadas em heap, enfatizando abstração e gerenciamento de memória. Em ft_list_size.c, os alunos implementam a contagem de nós de uma lista encadeada de forma     recursiva, aprendendo a dividir problemas em subproblemas. Com add_node.c, praticam a criação e inserção de nós no início da lista, consolidando o uso de malloc e ponteiros. Além disso, lcm.c desafia a           aplicação de propriedades matemáticas para otimizar o cálculo do mínimo múltiplo comum entre dois números.
+
+    **[Level 4: Manipulação de Strings e Ordenação em Listas](https://github.com/vinislima/42sp_common_core_exams/tree/main/exam_rank_02/level_04)**
+
+    No nível final, os exercícios integram técnicas de gestão de buffers, tokenização e algoritmos de ordenação em contextos textuais e dinâmicos. Por exemplo, em rosting.c, reordenam-se palavras de uma frase        movendo a primeira para o fim, exigindo realocação de buffer e cuidado com índices para evitar vazamentos. Em ft_split_pocket.c, implementa-se a divisão de uma string em substrings, retornando um array de        palavras alocado dinamicamente. Por fim, ft_list_sort.c convida a ordenar uma lista encadeada usando algoritmos como Bubble Sort ou Merge Sort adaptados, lidando com troca de ponteiros e assegurando              eficiência.
+
+    ---
