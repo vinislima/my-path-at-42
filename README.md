@@ -13,7 +13,7 @@ A Piscine é, sem dúvida, a parte mais crucial do processo seletivo da 42, onde
 Iniciamos com shell scripting e avançamos progressivamente para tarefas utilizando a linguagem de programação C.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/peda-cos/peda-cos/main/badges/piscina.png"/>
+    <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/piscina.png"/>
 </p>
 
 ---
@@ -99,7 +99,7 @@ O **Warm Up** na 42 funciona como uma fase preparatória para revisitar os funda
 Junto com as habilidades técnicas, o aquecimento introduz a avaliação entre pares, ensinando comunicação eficaz, empatia e colaboração, que são valores centrais da metodologia de aprendizado da 42. Essa fase ajuda os alunos a ganhar confiança e se preparar para os desafios do currículo da 42.
 
 <p align="center">
-    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/phase_onee.png?raw=true"/>
+    <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/phase_onee.png"/>
 </p>
 
 ---
@@ -139,7 +139,7 @@ O programa também introduz programação gráfica e web por meio de projetos co
     
     <p align="center">
         <a href = "https://github.com/vinislima/42sp_common_core_libft">
-            <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libfte.png?raw=true" />
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/libfte.png" />
         </a>
     </p>
     
@@ -156,7 +156,7 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
   <p align="center">
     <a href = "https://github.com/vinislima/42sp_common_core_ft_printf">
-        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/ft_printfe.png?raw=true" />
+        <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/ft_printfn.png" />
     </a>
   </p>
   
@@ -177,7 +177,7 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
   <p align="center">
     <a href = "https://github.com/vinislima/42sp_common_core_get_next_line">
-        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/get_next_linee.png?raw=true" />
+        <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/get_next_linee.png" />
     </a>
   </p>
   
@@ -193,7 +193,7 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
   <p align="center">
     <a href = "https://github.com/vinislima/42sp_common_core_born_2_be_root">
-        <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/born2beroote.png?raw=true" />
+        <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/born2beroote.png" />
     </a>
   </p>
 
@@ -203,13 +203,12 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
 A segunda milestone na 42 é representada por um conjunto de sete projetos que desafiam os alunos a aplicar conceitos avançados de C e Unix em cenários distintos.
 
-No **get_next_line**, os alunos desenvolvem uma função capaz de ler linhas de um arquivo de forma eficiente, manipulando `buffers`, tratamento de erros e gestão de memória;
-Já no **pipex**, implementam a criação de pipelines e o redirecionamento de entrada e saída, simulando comportamentos de um `shell`;
-Com **minitalk**, exploram comunicação entre processos via sinais, lidando com sincronização e segurança na troca de mensagens binárias;
-O **push_swap** exige a ordenação de números usando apenas duas pilhas e comandos restritos, aprimorando o raciocínio algorítmico e a otimização de operações;
-No **so_long**, implementam um jogo simples em 2D, tratando mapas, eventos de teclado e fluxo de renderização com bibliotecas gráficas mínimas;
-O **FdF** leva a visualização a três dimensões em `wireframe`, introduzindo transformações de coordenadas e projeções isométricas;
-Por fim, no **Fract‑ol**, investigam a geração e renderização interativa de fractais, aplicando conceitos matemáticos e, opcionalmente, paralelismo para manter bom desempenho.
+Já no **pipex**, implementam a criação de pipelines e o redirecionamento de entrada e saída, simulando comportamentos de um `shell`;<br>
+Com **minitalk**, exploram comunicação entre processos via sinais, lidando com sincronização e segurança na troca de mensagens binárias;<br>
+O **push_swap** exige a ordenação de números usando apenas duas pilhas e comandos restritos, aprimorando o raciocínio algorítmico e a otimização de operações;<br>
+No **so_long**, implementam um jogo simples em 2D, tratando mapas, eventos de teclado e fluxo de renderização com bibliotecas gráficas mínimas;<br>
+O **FdF** leva a visualização a três dimensões em `wireframe`, introduzindo transformações de coordenadas e projeções isométricas;<br>
+Por fim, no **Fract‑ol**, investigam a geração e renderização interativa de fractais, aplicando conceitos matemáticos e, opcionalmente, paralelismo para manter bom desempenho.<br>
 
 Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenciamento de memória, processos e gráficos em C, mas também se familiarizam com diretrizes rigorosas de organização de código e com o sistema de testes automatizados, essencial para projetos mais complexos no currículo da 42.
 
@@ -218,7 +217,7 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
 - [minitalk](https://github.com/vinislima/42sp_common_core_minitalk)
     
     <p align="center">
-        <a href = "https://github.com/vinislima/42sp_common_core_born_2_be_root">
+        <a href = "https://github.com/vinislima/42sp_common_core_minitalk">
             <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/minitalkm.png" />
         </a>
     </p>
@@ -236,8 +235,8 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
 - [Exam Rank 02](https://github.com/vinislima/42sp_common_core_exams/tree/main)
     
     <p align="center">
-        <a href = "https://github.com/vinislima/42sp_common_core_born_2_be_root">
-            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/exam_rank_02.png" />
+        <a href = "https://github.com/vinislima/42sp_common_core_exams/tree/main">
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/born2beroote.png" />
         </a>
     </p>
     
