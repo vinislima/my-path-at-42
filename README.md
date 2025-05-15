@@ -200,3 +200,51 @@ O programa também introduz programação gráfica e web por meio de projetos co
 ---
 
 ### Milestone 2
+
+A segunda milestone na 42 é representada por um conjunto de sete projetos que desafiam os alunos a aplicar conceitos avançados de C e Unix em cenários distintos.
+
+No **get_next_line**, os alunos desenvolvem uma função capaz de ler linhas de um arquivo de forma eficiente, manipulando `buffers`, tratamento de erros e gestão de memória;
+Já no **pipex**, implementam a criação de pipelines e o redirecionamento de entrada e saída, simulando comportamentos de um `shell`;
+Com **minitalk**, exploram comunicação entre processos via sinais, lidando com sincronização e segurança na troca de mensagens binárias;
+O **push_swap** exige a ordenação de números usando apenas duas pilhas e comandos restritos, aprimorando o raciocínio algorítmico e a otimização de operações;
+No **so_long**, implementam um jogo simples em 2D, tratando mapas, eventos de teclado e fluxo de renderização com bibliotecas gráficas mínimas;
+O **FdF** leva a visualização a três dimensões em `wireframe`, introduzindo transformações de coordenadas e projeções isométricas;
+Por fim, no **Fract‑ol**, investigam a geração e renderização interativa de fractais, aplicando conceitos matemáticos e, opcionalmente, paralelismo para manter bom desempenho.
+
+Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenciamento de memória, processos e gráficos em C, mas também se familiarizam com diretrizes rigorosas de organização de código e com o sistema de testes automatizados, essencial para projetos mais complexos no currículo da 42.
+
+---
+
+  - [minitalk](https://github.com/vinislima/42sp_common_core_minitalk)
+    
+    O projeto **minitalk** tem como foco recriar um sistema mínimo de comunicação entre processos em C, usando apenas sinais UNIX (`SIGUSR1` e `SIGUSR2`). Ele desafia os participantes a desenvolver dois programas — um **server** e um **client** — capazes de transmitir texto bit a bit sem recorrer a pipes, sockets ou memória compartilhada. O servidor deve exibir seu PID ao iniciar e ficar aguardando sinais; o cliente recebe o PID do servidor e uma string, converte cada caractere em sequência de bits e envia sinais, sincronizando via `pause()` até receber confirmação antes de prosseguir.
+
+    Nos requisitos obrigatórios, é preciso instalar handlers com `signal()` ou `sigaction()`, codificar “0” e “1” em sinais distintos, garantir que o servidor reconstrua e exiba corretamente a mensagem (incluindo caracteres especiais e `\n`), e tratar erros como PID inválido ou falha no envio de sinal.  
+
+    Como bônus, o projeto pode incluir suporte a múltiplos clientes simultâneos, mantendo estados de comunicação separados por PID, além de implementar temporizadores para evitar deadlocks, tratamento de sinais interrompidos e otimizações para mensagens longas sem perda de dados.
+
+    Ao concluir, os executáveis `server` e `client` podem ser integrados à sua biblioteca pessoal (`libft`), oferecendo uma ferramenta prática para futuros exercícios de comunicação de processos em C.
+
+  <p align="center">
+    <a href = "https://github.com/vinislima/42sp_common_core_ft_printf">
+        <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/minitalkm.png" />
+    </a>
+  </p>
+  
+   ---
+    
+  - [minitalk](https://github.com/vinislima/42sp_common_core_minitalk)
+    
+    O projeto **minitalk** tem como foco recriar um sistema mínimo de comunicação entre processos em C, usando apenas sinais UNIX (`SIGUSR1` e `SIGUSR2`). Ele desafia os participantes a desenvolver dois programas — um **server** e um **client** — capazes de transmitir texto bit a bit sem recorrer a pipes, sockets ou memória compartilhada. O servidor deve exibir seu PID ao iniciar e ficar aguardando sinais; o cliente recebe o PID do servidor e uma string, converte cada caractere em sequência de bits e envia sinais, sincronizando via `pause()` até receber confirmação antes de prosseguir.
+
+    Nos requisitos obrigatórios, é preciso instalar handlers com `signal()` ou `sigaction()`, codificar “0” e “1” em sinais distintos, garantir que o servidor reconstrua e exiba corretamente a mensagem (incluindo caracteres especiais e `\n`), e tratar erros como PID inválido ou falha no envio de sinal.  
+
+    Como bônus, o projeto pode incluir suporte a múltiplos clientes simultâneos, mantendo estados de comunicação separados por PID, além de implementar temporizadores para evitar deadlocks, tratamento de sinais interrompidos e otimizações para mensagens longas sem perda de dados.
+
+    Ao concluir, os executáveis `server` e `client` podem ser integrados à sua biblioteca pessoal (`libft`), oferecendo uma ferramenta prática para futuros exercícios de comunicação de processos em C.
+
+  <p align="center">
+    <a href = "https://github.com/vinislima/42sp_common_core_ft_printf">
+        <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/minitalkm.png" />
+    </a>
+  </p>
