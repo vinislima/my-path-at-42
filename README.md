@@ -236,7 +236,7 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
     
     <p align="center">
         <a href = "https://github.com/vinislima/42sp_common_core_exams/tree/main">
-            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/born2beroote.png" />
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/exam_rank_02.png" />
         </a>
     </p>
     
