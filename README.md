@@ -236,7 +236,7 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
     
     <p align="center">
         <a href = "https://github.com/vinislima/42sp_common_core_exams/tree/main">
-            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/exam_rank_02.png" />
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/exam_rank_02.png" width="150" height="150"/>
         </a>
     </p>
     
@@ -257,3 +257,48 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
     No nível final, os exercícios integram técnicas de gestão de buffers, tokenização e algoritmos de ordenação em contextos textuais e dinâmicos. Por exemplo, em rosting.c, reordenam-se palavras de uma frase        movendo a primeira para o fim, exigindo realocação de buffer e cuidado com índices para evitar vazamentos. Em ft_split_pocket.c, implementa-se a divisão de uma string em substrings, retornando um array de        palavras alocado dinamicamente. Por fim, ft_list_sort.c convida a ordenar uma lista encadeada usando algoritmos como Bubble Sort ou Merge Sort adaptados, lidando com troca de ponteiros e assegurando              eficiência.
 
     ---
+  
+- [push_swap](https://github.com/vinislima/42sp_common_core_push_swap)
+    
+    <p align="center">
+        <a href = "https://github.com/vinislima/42sp_common_core_push_swap">
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/push_swape.png" />
+        </a>
+    </p>
+
+    O projeto **Push_swap** tem como foco a ordenação de dados em uma pilha utilizando um conjunto limitado de instruções, com o desafio de alcançar o menor número possível de operações. Ele testa a habilidade dos participantes em desenvolver        algoritmos eficientes em C para escolher a estratégia de ordenação mais otimizada.
+
+    Ele desafia os participantes a desenvolver um programa principal — o `push_swap` — capaz de receber uma lista de inteiros, que representa a pilha inicial 'a', e gerar a sequência mais curta de instruções específicas para ordenar esses            inteiros. Opcionalmente, um segundo programa, o checker, pode ser desenvolvido para verificar a correção da sequência de instruções.
+
+    O mecanismo de funcionamento envolve duas pilhas, 'a' (inicialmente com os números a serem ordenados) e 'b' (inicialmente vazia). O push_swap deve calcular e exibir a sequência de operações (como `sa`, `pb`, `ra`, etc.) que ordenam a pilha       'a' com o menor número no topo e a pilha 'b' vazia. O checker, se implementado, recebe uma pilha inicial e uma lista de instruções, executando-as e indicando se a pilha foi ordenada corretamente ("OK") ou não ("KO").
+
+    Nos requisitos obrigatórios, é preciso desenvolver o push_swap em C, seguindo a Norma da 42 (sem variáveis globais, gestão de memória impecável). Deve haver um Makefile com as flags `-Wall`, `-Wextra`, `-Werror` e regras padrão. O programa       deve aceitar inteiros como argumentos (primeiro argumento é o topo da pilha), tratar erros (argumentos inválidos, duplicatas, exibindo "Error" na stderr) e imprimir a sequência de instruções na stdout (uma por linha). O desempenho é crucial,     com benchmarks específicos para 100 e 500 números (ex: <700 operações para 100 números na validação máxima).
+
+    Como bônus, o projeto pode incluir o desenvolvimento do programa checker. Este programa lê a pilha inicial como argumentos e as instruções da entrada padrão, validando se as instruções ordenam a pilha. Ele também deve tratar erros de entrada     e instruções inválidas. A avaliação do bônus depende da perfeição da parte obrigatória, incluindo o cumprimento dos benchmarks mais exigentes.
+
+    Ao concluir, o push_swap (e o checker opcional) serve como um exercício fundamental sobre algoritmos de ordenação, sua complexidade e otimização, consolidando habilidades de resolução de problemas e programação em C, frequentemente avaliadas     em contextos profissionais.
+
+   ---
+  
+- [fract-ol](https://github.com/vinislima/42sp_common_core_fract_ol)
+    
+    <p align="center">
+        <a href = "https://github.com/vinislima/42sp_common_core_fract_ol">
+            <img src="https://raw.githubusercontent.com/vinislima/badges_42/refs/heads/main/badges/fract-ole.png" />
+        </a>
+    </p>
+
+    O projeto **Fract'ol** foca na criação de um programa de exploração de fractais em C, permitindo aos usuários gerar e visualizar fractais matematicamente belos. Ele desafia os participantes a renderizar padrões geométricos complexos e            gerenciar interações gráficas usando uma biblioteca gráfica específica.
+
+    O projeto exige que os participantes desenvolvam um programa — fractol — capaz de exibir diferentes tipos de fractais, como o conjunto de **Mandelbrot** e o conjunto de **Julia**. O programa deve receber parâmetros pela linha de comando para     determinar qual fractal exibir e para personalizar sua aparência, particularmente para diferentes conjuntos de Julia. Os usuários interagirão com o fractal dando zoom para aproximar e afastar usando a roda do mouse.
+
+    O mecanismo central envolve o uso da biblioteca MiniLibX para abrir uma janela, criar imagens e lidar com eventos de teclado e mouse. O programa deve calcular e renderizar o fractal escolhido pixel por pixel, aplicando cores para representar     a "profundidade" ou iterações de escape de cada ponto, com incentivo à experimentação com esquemas de cores psicodélicas.
+
+    Os principais requisitos obrigatórios incluem:
+
+     - Implementar mais um tipo diferente de fractal.
+     - Fazer o zoom seguir a posição atual do cursor do mouse.
+     - Permitir a movimentação da visualização usando as teclas de seta.
+     - Implementar uma mudança na gama de cores. A parte bônus só será avaliada se a parte obrigatória estiver perfeita.
+
+    Ao concluir, o executável fractol oferece uma maneira envolvente de explorar a beleza dos fractais matemáticos, ao mesmo tempo em que proporciona aos estudantes experiência prática com programação gráfica, manipulação de eventos e otimização     usando a biblioteca MiniLibX.
