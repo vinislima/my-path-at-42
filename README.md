@@ -203,10 +203,18 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
 A segunda milestone na 42 é representada por um conjunto de sete projetos que desafiam os alunos a aplicar conceitos avançados de C e Unix em cenários distintos.
 
+O **Exam Rank 02** testa habilidades em C através de níveis progressivos. O level_01 foca na manipulação básica de strings, como encontrar palavras, inverter strings e recriar funções como `ft_strlen`.
+O level_02 avança para manipulações mais complexas, como conversões de `camelCase` para `snake_case`, recriação de `ft_atoi` e `ft_strdup`, e introduz operações a nível de bits.
+Níveis superiores, como level_03 e level_04, aumentam a complexidade, exigindo conhecimento de algoritmos, estruturas de dados e gerenciamento de memória.
+
 Já no **pipex**, implementam a criação de pipelines e o redirecionamento de entrada e saída, simulando comportamentos de um `shell`;<br>
+
 Com **minitalk**, exploram comunicação entre processos via sinais, lidando com sincronização e segurança na troca de mensagens binárias;<br>
+
 O **push_swap** exige a ordenação de números usando apenas duas pilhas e comandos restritos, aprimorando o raciocínio algorítmico e a otimização de operações;<br>
+
 No **so_long**, implementam um jogo simples em 2D, tratando mapas, eventos de teclado e fluxo de renderização com bibliotecas gráficas mínimas;<br>
+
 O **FdF** leva a visualização a três dimensões em `wireframe`, introduzindo transformações de coordenadas e projeções isométricas;<br>
 Por fim, no **Fract‑ol**, investigam a geração e renderização interativa de fractais, aplicando conceitos matemáticos e, opcionalmente, paralelismo para manter bom desempenho.<br>
 
@@ -302,3 +310,19 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
      - Implementar uma mudança na gama de cores. A parte bônus só será avaliada se a parte obrigatória estiver perfeita.
 
     Ao concluir, o executável fractol oferece uma maneira envolvente de explorar a beleza dos fractais matemáticos, ao mesmo tempo em que proporciona aos estudantes experiência prática com programação gráfica, manipulação de eventos e otimização     usando a biblioteca MiniLibX.
+
+---
+
+### Milestone 3
+
+A terceira milestone na 42 consolida e expande o conhecimento em programação **C** e conceitos de sistemas `Unix`, focando na implementação de funcionalidades complexas e no gerenciamento de concorrência.
+
+Primeiramente, os alunos enfrentam o **Exam 03**, onde devem recriar com perfeição uma de duas funções clássicas: `get_next_line`, que lê uma linha de um descritor de arquivo, ou `ft_printf`, uma réplica da função `printf` da biblioteca C padrão. Este exame testa a atenção a detalhes, o manejo rigoroso de memória e a compreensão profunda do comportamento de funções de baixo nível.
+
+Em seguida, o projeto **Minishell** desafia os alunos a construir um interpretador de comandos interativo, similar ao `bash`. Este projeto abrange a análise e execução de comandos, o gerenciamento de processos (criação, sinais), redirecionamentos de entrada/saída, `pipes`, e a manipulação de variáveis de ambiente. É um mergulho profundo no funcionamento interno de um `shell Unix` e na interação com o sistema operacional.
+
+Por fim, com **Philosophers**, os alunos exploram problemas clássicos de concorrência e sincronização. O objetivo é simular o "jantar dos filósofos", onde múltiplos "filósofos" (threads ou processos) precisam compartilhar recursos (garfos) para comer, evitando deadlocks e starvation. Este projeto exige o uso cuidadoso de `mutexes` e semáforos (ou outras primitivas de sincronização) e desenvolve o raciocínio sobre sistemas concorrentes.
+
+Com essa milestone, os alunos aprofundam seu conhecimento em C, demonstram a capacidade de implementar utilitários de sistema complexos e aprendem a gerenciar recursos compartilhados em ambientes concorrentes, habilidades cruciais para o desenvolvimento de software robusto e eficiente.
+
+---
