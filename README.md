@@ -1,10 +1,11 @@
 # **My path at [42 São Paulo](https://www.42sp.org.br/)**
 
-Portfólio de projetos realizados durante meu período na [42 São Paulo](https://www.42sp.org.br/).
+Projetos realizados durante meu período na [42 São Paulo](https://www.42sp.org.br/) e dicas.
 
 42 São Paulo é uma instituição educacional inovadora que oferece treinamento gratuito em engenharia de software, utilizando uma metodologia única de aprendizado colaborativo baseada em projetos práticos. Sem professores tradicionais, o programa está disponível 24 horas por dia, 7 dias por semana, com duração de aproximadamente 18 meses, focando em linguagens de programação fundamentais e tópicos avançados. O processo de seleção inclui uma fase imersiva denominada "Piscina", e a instituição se destaca pela alta taxa de empregabilidade, com 85% dos alunos ingressando no mercado de trabalho no primeiro ano. Parte de uma rede global com 35 campi distribuídos em 22 países, a 42 São Paulo prioriza a diversidade e a inclusão, oferecendo bolsas de estudo e desenvolvendo não apenas habilidades técnicas, mas também competências essenciais, como a resolução de problemas e o trabalho em equipe.
 
-## **Projetos**
+<details>
+<summary><h2><strong>Projetos</strong></h2></summary>
 
 ### **Piscina**
 
@@ -326,3 +327,4 @@ Por fim, com **Philosophers**, os alunos exploram problemas clássicos de concor
 Com essa milestone, os alunos aprofundam seu conhecimento em C, demonstram a capacidade de implementar utilitários de sistema complexos e aprendem a gerenciar recursos compartilhados em ambientes concorrentes, habilidades cruciais para o desenvolvimento de software robusto e eficiente.
 
 ---
+</details>
