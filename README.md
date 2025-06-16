@@ -7,7 +7,8 @@ Projetos realizados durante meu período na [42 São Paulo](https://www.42sp.org
 <details>
 <summary><h2><strong>Projetos</strong></h2></summary>
 
-### **Piscina**
+<details>
+<summary><h3><strong>Piscina</strong></h3></summary>
 
 A Piscine é, sem dúvida, a parte mais crucial do processo seletivo da 42, onde desenvolvemos uma variedade de projetos.
 
@@ -93,7 +94,10 @@ Iniciamos com shell scripting e avançamos progressivamente para tarefas utiliza
 
 ---
 
-### Warm Up
+</details>
+
+<details>
+<summary><h3><strong>Warm Up</strong></h3></summary>
 
 O **Warm Up** na 42 funciona como uma fase preparatória para revisitar os fundamentos essenciais de programação aprendidos durante a Piscine. Esses exercícios abordam tópicos como laços, funções, ponteiros e estruturas de dados, reforçando tanto a base sintática quanto a semântica da linguagem C.
 
@@ -118,7 +122,10 @@ Junto com as habilidades técnicas, o aquecimento introduz a avaliação entre p
 
 ---
 
-### Common Core
+</details>
+
+<details>
+<summary><h3><strong>Common Core</strong></h3></summary>
 
 O **Common Core** da 42 é a etapa fundamental do currículo, projetada para oferecer uma base sólida em engenharia de software. Com duração de 12 a 18 meses, essa fase prepara os alunos para os desafios técnicos da área de tecnologia por meio de aprendizado prático e projetos inspirados em situações do mundo real.
 
@@ -132,7 +139,8 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
 ---
 
-### Milestone 0
+<details>
+<summary><h3><strong>Milestone 0</strong></h3></summary>
 
 - [Libft](https://github.com/vinislima/42sp_common_core_libft)
     
@@ -147,7 +155,10 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
 ---
 
-### Milestone 1
+</details>
+
+<details>
+<summary><h3><strong>Milestone 1</strong></h3></summary>
 
 - [ft_printf](https://github.com/vinislima/42sp_common_core_ft_printf)
     
@@ -200,7 +211,10 @@ O programa também introduz programação gráfica e web por meio de projetos co
 
 ---
 
-### Milestone 2
+</details>
+
+<details>
+<summary><h3><strong>Milestone 2</strong></h3></summary>
 
 A segunda milestone na 42 é representada por um conjunto de sete projetos que desafiam os alunos a aplicar conceitos avançados de C e Unix em cenários distintos.
 
@@ -314,7 +328,9 @@ Com essa milestone, os alunos não apenas consolidam seu entendimento de gerenci
 
 ---
 
-### Milestone 3
+</details>
+<details>
+<summary><h3><strong>Milestone 3</strong></h3></summary>
 
 A terceira milestone na 42 consolida e expande o conhecimento em programação **C** e conceitos de sistemas `Unix`, focando na implementação de funcionalidades complexas e no gerenciamento de concorrência.
 
@@ -327,4 +343,9 @@ Por fim, com **Philosophers**, os alunos exploram problemas clássicos de concor
 Com essa milestone, os alunos aprofundam seu conhecimento em C, demonstram a capacidade de implementar utilitários de sistema complexos e aprendem a gerenciar recursos compartilhados em ambientes concorrentes, habilidades cruciais para o desenvolvimento de software robusto e eficiente.
 
 ---
+
+</details>
+
+</details>
+
 </details>
