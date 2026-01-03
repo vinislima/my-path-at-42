@@ -4,6 +4,9 @@ Projetos realizados durante meu período na [42 São Paulo](https://www.42sp.org
 
 42 São Paulo é uma instituição educacional inovadora que oferece treinamento gratuito em engenharia de software, utilizando uma metodologia única de aprendizado colaborativo baseada em projetos práticos. Sem professores tradicionais, o programa está disponível 24 horas por dia, 7 dias por semana, com duração de aproximadamente 18 meses, focando em linguagens de programação fundamentais e tópicos avançados. O processo de seleção inclui uma fase imersiva denominada "Piscina", e a instituição se destaca pela alta taxa de empregabilidade, com 85% dos alunos ingressando no mercado de trabalho no primeiro ano. Parte de uma rede global com 35 campi distribuídos em 22 países, a 42 São Paulo prioriza a diversidade e a inclusão, oferecendo bolsas de estudo e desenvolvendo não apenas habilidades técnicas, mas também competências essenciais, como a resolução de problemas e o trabalho em equipe.
 
+> Esse conteúdo está / foi produzido durante a minha jornada na [42 São Paulo](https://www.42sp.org.br/), que teve início em <i>agosto/24</i>.<br>
+> Informações contidas aqui podem já não condizer com o conteúdo atual da escola, uma vez que ele é constantemente atualizado.
+
 <details>
 <summary><h2><strong>Links úteis</strong></h2></summary>
 
